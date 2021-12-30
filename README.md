@@ -21,6 +21,7 @@ There i chose the application to replicate.
 The Pro designer who made the original application is  Niccolò Miranda.
 
 • https://www.niccolomiranda.com/ 
+ <br>
 • https://www.linkedin.com/in/niccolomiranda/
 • https://www.awwwards.com/niccolo.miranda/
 
