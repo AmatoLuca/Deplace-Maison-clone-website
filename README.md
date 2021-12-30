@@ -25,7 +25,6 @@ There i chose the application to replicate.
 <br>
 The Pro designer who made the original application is  Niccolò Miranda.
 
-<br>
 
 <ul style="list-style-type:none;">
   <li>https://www.niccolomiranda.com/ </li>
