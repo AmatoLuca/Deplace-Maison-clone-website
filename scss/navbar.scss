@@ -1,0 +1,147 @@
+/* NAVBAR 
+============================== */
+.navbar-xl {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 2vw;
+  display: none;
+  font-family: "Favorit", sans-serif;
+  background-color: #fbf9ee;
+}
+
+.navbar__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-frame-xl {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-fr-left {
+  position: relative;
+}
+
+.nav-fr-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-app-link-xl {
+  overflow: hidden;
+  position: absolute;
+  top: 2.4vw;
+  left: -2.7vw;
+  display: block;
+  z-index: 999;
+  transform: rotate(-90deg);
+}
+
+.logo-name-p1 {
+  overflow: hidden;
+  height: 3vw;
+  position: relative;
+}
+
+.logo-name-p2 {
+  height: 8vw;
+}
+
+.logo-name-p2 img {
+  display: block;
+}
+
+.logo-name-p2 :nth-child(2) {
+  margin-top: 0.5vw;
+  transform: rotate(5deg);
+  transform-origin: center;
+}
+
+.logo-name-app-xl {
+  width: 8.8vw;
+  display: block;
+}
+
+.ink-go {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ink-go__inner {
+  position: relative;
+  font-family: Cyberthrone,sans-serif;
+  font-size: 1.1vw;
+  letter-spacing: 0.06vw;
+  font-weight: lighter;
+  line-height: 1.6vw;
+  z-index: 1;
+  display: inline-block;
+  transform: translateX(3vw);
+}
+
+.ink-go__inner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: $clr--copper;
+  z-index: -1;
+}
+
+.logo-name-app-xl {
+  font-size: 5vw;
+}
+
+.cart-link-xl {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  padding: 0.1vw 1vw;
+  
+  position: relative;
+  height: 1vw;
+  overflow: hidden;
+}
+
+.cart-item-xl,
+.cart-amount-xl {
+  font-size: 0.8vw;
+}
+
+.cart-item-xl {
+  height: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-xl__lift-2 {
+  margin-top: 0.1vw;
+}
+
+.cart-amount-xl {
+  margin-left: 0.5vw;
+  margin-right: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+
+
+/* NAVBAR MEDIA QUERIES
+============================== */
+@media screen and (min-width: 991px) {
+  .navbar-xl {
+    display: block;
+  }
+}

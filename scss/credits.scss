@@ -1,0 +1,169 @@
+/* CREDITS
+=====================*/
+.credits-section {
+  padding-right: 10vw;
+  padding-left: 6vw;
+  padding-bottom: 20vw;
+  padding-top: 28vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.credit-wrap {
+  margin-bottom: 4vw;
+  text-align: right;
+}
+
+.credit-head {
+  font-size: 25vw;
+  line-height: 20vw;
+  letter-spacing: -.095em;
+  padding-top: 0.3vw;
+}
+
+.credits-wrap {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.credits-name {
+  margin-top: 8.5vw;
+  margin-bottom: 8.5vw;
+}
+
+.credits-name.cn-2 {
+  width: 14.3vw;
+}
+
+.role-text {
+  font-size: 6vw;
+  line-height: 6vw;
+  letter-spacing: -.05em;
+}
+
+.role {
+  margin-top: 7.5vw;
+  margin-bottom: 7.5vw;
+}
+
+.roles-wrap {
+  width: 70%;
+}
+
+.role.role-2 {
+  margin-top: 10.5vw;
+}
+
+
+/* CREDITS MEDIA QUERIES
+============================== */
+@media screen and (min-width: 479px) {
+  .credits-section {
+    padding-right: 10vw;
+    padding-left: 19.5vw;
+    padding-bottom: 20vw;
+    padding-top: 28vw;
+  }
+
+  .credit-head {
+    font-size: 19vw;
+    line-height: 15vw;
+  }
+
+  .credits-name {
+    margin-top: 3.5vw;
+    margin-bottom: 3.5vw;
+  }
+
+  .role-text {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+
+  .role {
+    margin-top: 3.5vw;
+    margin-bottom: 3.5vw;
+  }
+
+  .role-text {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+
+  .role.role-2 {
+    margin-top: 6.5vw;
+  }
+
+  .credits-wrap {
+    justify-content: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .credits-section {
+    padding-right: 10.5vw;
+    padding-left: 15.5vw;
+    padding-bottom: 10vw;
+    padding-top: 28vw;
+    overflow: hidden;
+  }
+
+  .credit-head {
+    font-size: 18vw;
+    line-height: 14vw;
+  }
+
+  .credits-wrap {
+    justify-content: space-between;
+  }
+
+  .role-text {
+    font-size: 3.2vw;
+    line-height: 3.2vw;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .credits-section {
+    padding: 10vw 24vw 10vw 23.5vw;
+  }
+
+  .credit-head {
+    font-size: 13vw;
+    line-height: 10vw;
+  }
+
+  .credits-name {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .role-text {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  .role {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .role.role-2 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .credits-wrap {
+    justify-content: space-between;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .credits-name-wrap {
+    width: 21vw;
+  }
+}

@@ -1,0 +1,101 @@
+/* PRELOAD PAGE
+============================== */ 
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background-color: $primary-black;
+  color: $primary-white;
+}
+
+.load-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100%;
+}
+
+.load-1 img {
+  max-width: 7.6vw;
+}
+
+.load-2 {
+  height: 60vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.load-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.load-text {
+  font-family: "Favorit", sans-serif;
+  font-size: 2vw;
+  text-transform: uppercase;
+  line-height: 3vw;
+  opacity: 0.9;
+}
+
+.percentage-wrap {
+  overflow: hidden;
+  height: 23vw;
+  padding-top: 0.5vw;
+}
+
+.percentage-inner {
+  height: 96vw;
+}
+
+.percentage-text {
+  font-family: "Tt trailers", sans-serif;
+  color: #fcf9ee;
+  font-size: 27vw;
+  line-height: 24vw;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+
+
+/* MEDIA QUERIES 
+============================== */
+@media screen and (min-width: 991px) {
+  .load-1 img {
+    max-width: 4vw;
+  }
+
+  .load-text {
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+  }
+
+  .percentage-inner {
+    height: 66vw;
+  }
+
+  .percentage-wrap {
+    height: 18vw;
+  }
+
+  .percentage-text {
+    font-size: 18vw;
+    line-height: 17vw;
+  }
+}

@@ -1,0 +1,103 @@
+/*  QUOTE SECTION
+============================== */
+.quote-sec {
+  padding-top: 17vw;
+  padding-bottom: 17vw;
+  padding-left: 8vw;
+  padding-right: 10vw;
+}
+
+.quote-sec__aside {
+  position: relative;
+  font-size: 3vw;
+  line-height: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.quote-sec__aside::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: $primary-black;
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+}
+
+.quote-sec__track {
+  position: relative;
+  overflow: hidden;
+  /* height: 5.4vw; */
+}
+
+.quote-sec__track-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-h {
+  font-size: 5.4vw;
+  line-height: 6vw;
+  text-transform: lowercase;
+  font-weight: lighter;
+  letter-spacing: -0.06em;
+}
+
+.quote-h__span {
+  text-transform: capitalize;
+}
+
+.quote-sec__link {
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+
+/* MARQUEE-INNER MOBILE MEDIA QUERIES
+===================================== */
+@media screen and (min-width: 479px) {
+  .quote-sec {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 18vw;
+    padding-right: 10vw;
+  }
+
+  .quote-h {
+    font-size: 4.5vw;
+    line-height: 4.8vw;
+  }
+
+  .quote-sec__aside {
+    position: relative;
+    font-size: 2vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .quote-sec__aside::after {
+    bottom: 11px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .quote-sec {
+    padding-left: 23.5vw;
+  }
+
+  .quote-h {
+    font-size: 4.3vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quote-sec__link::after {
+    height: 3px;
+  }
+}

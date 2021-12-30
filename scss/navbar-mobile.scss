@@ -1,0 +1,139 @@
+/* NAVBAR MOBILE
+============================== */
+.navbar-mobile a {
+  color: $primary-black;
+  text-decoration: none;
+}
+
+.navbar-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 6.5vw 5vw;
+  z-index: 999;
+  font-family: "Favorit", sans-serif;
+  /* background-color: #fbf9ee; */
+}
+
+.navbar-frame {
+  display: flex;
+  width: 100%;
+  min-height: 8vw;
+}
+
+.navbar-frame-slot {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar-frame-slot:last-child {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar-frame-slot:nth-child(2) {
+  justify-content: center;
+}
+
+.name-app-link {
+  overflow: hidden;
+  display: inline-block;
+  z-index: 9999;
+  position: relative;
+}
+
+.logo-name-app {
+  width: 22vw;
+  display: block;
+}
+
+.logo-trans {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.menu-trigger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
+  top: -0.5vw;
+  transform: translateX(-3vw);
+}
+
+.menu-line {
+  width: 31px;
+  height: 2px;
+  background-color: $primary-black;
+}
+
+.menu-trigger > * + * {
+  margin-top: 4px;
+}
+
+.menu-line:first-child,
+.menu-line:last-child {
+  width: 15px;
+}
+
+.menu-line:last-child {
+  align-self: flex-end;
+}
+
+.cart-item {
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 0.03vw;
+  display: inline-block;
+}
+
+.cart-amount {
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.cart-link {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 99999;
+}
+
+
+/* NAVBAR MOBILE MEDIA QUERIES
+============================== */
+@media screen and (min-width: 479px) {
+  .navbar-mobile {
+    padding: 3.5vw 5vw;
+  }
+
+  .logo-name-app {
+    width: 14vw;
+  }
+
+  .cart-item {
+    font-size: 2vw;
+  }
+
+  .cart-amount {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .navbar-mobile {
+    display: none;
+  }
+}

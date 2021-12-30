@@ -1,0 +1,176 @@
+/* SECTION CONTACT
+============================== */
+
+.sec-contact {
+  padding-top: 30vw;
+  padding-right: 18vw;
+  padding-bottom: 10vw;
+  padding-left: 15vw;
+  width: 100%;
+}
+
+.contact-intro {
+  padding-bottom: 2vw;
+}
+
+.contact-heading {
+  font-family: "Favorit", sans-serif;
+  font-weight: 400;
+  font-size: 8vw;
+  line-height: 8vw;
+  text-transform: none;
+  letter-spacing: -.06em !important;
+}
+
+.contact-grid {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 5vw;
+}
+
+.contact-title {
+  font-size: 4vw;
+  line-height: 4vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  letter-spacing: -.04em;
+}
+
+.contact-link {
+  position: relative;
+  font-size: 6.5vw;
+  line-height: 8vw;
+  letter-spacing: -.04em;
+  font-weight: 400 !important;
+}
+
+.contact-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #141313;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+.contact-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.contact-text {
+  font-size: 6.5vw;
+  line-height: 6.5vw;
+  font-weight: 400 !important;
+  letter-spacing: -.04em;
+}
+
+
+/* HERO-HEADINGS QUERIES
+===================================== */
+@media screen and (min-width: 479px) {
+  .sec-contact {
+    padding-top: 25vw;
+  }
+
+  .contact-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .contact-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .contact-link {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400 !important;
+  }
+
+  .contact-text {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .sec-contact {
+    padding-top: 17vw;
+  }
+
+  .contact-intro {
+    padding-left: 33vw;
+  }
+
+  .contact-grid {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .contact-wrap {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .contact-link {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .contact-text {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+
+@media screen and (min-width: 991px) {
+  .sec-contact {
+    padding-top: 12vw;
+  }
+
+  .contact-heading {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+
+  .contact-grid {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  .contact-inner {
+    padding-left: 10vw;
+  }
+  .contact-title {
+    font-size: 1vw;
+  }
+
+  .contact-link {
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+  }
+
+  .contact-text {
+    font-size: 1.5vw;
+    line-height: 1.9vw;
+  }
+}

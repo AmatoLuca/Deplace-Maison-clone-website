@@ -1,0 +1,51 @@
+/* MARQUEE
+============================== */
+.marquee {
+  width: 100%;
+  height: 8vw;
+  padding-top: 5vw;
+  padding-bottom: 15vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee__inner {
+  width: 1000%;
+  height: 8vw;
+  background-color: $clr--goldie;
+  border-top: 0.2vw solid $primary-black;
+  border-bottom: 0.2vw solid $primary-black;
+  display: flex;
+  align-items: center;
+}
+
+.marquee-heading {
+  font-size: 4vw;
+  line-height: 4vw;
+  letter-spacing: -0.06em;
+  animation: marquee 4.5s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%)
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* MARQUEE-INNER MOBILE MEDIA QUERIES
+===================================== */
+@media screen and (min-width: 479px) {
+  .marquee__inner {
+    height: 5vw;
+  }
+
+  .marquee-heading {
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+  }
+  
+}

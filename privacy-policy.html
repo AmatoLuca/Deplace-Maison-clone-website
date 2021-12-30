@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./svg/logomark.svg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Déplacé Maison – Privacy</title>
+  </head>
+  <body>
+    <!-- CURSOR -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+      <defs>
+          <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo"></feColorMatrix>
+              <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+          </filter>
+      </defs>
+    </svg>
+    <div id="cursor"></div>
+    
+    <!-- LOADER JPAN -->
+    <div class="loader-jpn">
+      <div class="loader-jpn__inner">
+        <div class="loader-jpn__logo-wrap">
+          <img src="./svg/jap-text.svg" alt=".japan-text" class="jpn-logo" />
+          <div class="japan-logo-mask"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR LARGE DEVICES -->
+    <div class="sidebar">
+      <div class="sidebar__wrap">
+        <a href="./shop.html" class="sb-achr-1">
+          <div class="sidebar__drawer drwr-1">
+            <div class="sidebar__link">shop</div>
+            <div class="sidebar__link sidebar__link-copy">shop</div>
+          </div>
+        </a>
+        <a href="./collections.html" class="sb-achr-2">
+          <div class="sidebar__drawer drwr-2">
+            <div class="sidebar__link">collections</div>
+            <div class="sidebar__link sidebar__link-copy">collections</div>
+          </div>
+        </a>
+        <a href="./about.html" class="sb-achr-3">
+          <div class="sidebar__drawer drwr-3">
+            <div class="sidebar__link">about</div>
+            <div class="sidebar__link sidebar__link-copy">about</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- NAVIGATION MOBILE SCREEEN -->
+    <nav class="navbar-mobile">
+      <div class="navbar-frame">
+        <div class="navbar-frame-slot">
+          <a href="index.html" class="name-app-link">
+            <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+            <img
+              src="./svg/nameApp-trans.svg"
+              alt="name-app"
+              class="logo-name-app logo-trans"
+            />
+          </a>
+        </div>
+        <div class="navbar-frame-slot">
+          <a href="#" class="menu-trigger">
+            <div class="menu-line" id="toggle-line-1"></div>
+            <div class="menu-line" id="toggle-line-2"></div>
+            <div class="menu-line" id="toggle-line-3"></div>
+          </a>
+        </div>
+        <div class="navbar-frame-slot">
+          <a href="#" class="cart-link">
+            <div class="cart-item">cart</div>
+            <div class="cart-amount">0</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- DROPDOWN MENU SMALL DEVICES -->
+      <div class="nav-menu">
+        <div class="nav-menu__inner">
+          <div class="menu-slot-1">
+            <div class="menu-slot-1__text">
+              <span class="menu-slot-1__text__pop">TABS</span>
+            </div>
+            <div class="menu-slot-underline"></div>
+            <div class="menu-slot-1__links">
+              <a href="./shop.html">
+                <h2>
+                  <span class="link-pop">SHOP</span>
+                </h2>
+              </a>
+              <a href="./collections.html">
+                <h2>
+                  <span class="link-pop">COLLECTIONS</span>
+                </h2>
+              </a>
+              <a href="./about.html">
+                <h2>
+                  <span class="link-pop">ABOUT</span>
+                </h2>
+              </a>
+            </div>
+            <div class="nav-slot-1-footer">
+              <div class="nav-slot-1-footer__b1">
+                <div class="m-s-footer-link">
+                  <a href="./faq.html">FAQ</a>
+                </div>
+                <div class="m-s-footer-link">
+                  <a href="./terms-conditions.html">TERMS</a>
+                </div>
+              </div>
+              <div class="nav-slot-1-footer__b2">
+                <div class="m-s-footer-link">
+                  <a href="./returns.html">RETURNS</a>
+                </div>
+                <div class="m-s-footer-link">
+                  <a href="./privacy-policy.html">PRIVACY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-slot-2">
+            <!-- MENU SOCIAL SECTION -->
+            <div class="menu-social">
+              <div class="social-inner">
+                <div class="social-inner__slot-1">
+                  <a href="#"><img src="./svg/facebook.svg" alt="" /></a>
+                </div>
+                <div class="social-inner__slot-2">
+                  <a href="#"><img src="./svg/instagram.svg" alt="" /></a>
+                </div>
+                <div class="social-inner__slot-3">
+                  <div class="arrow-box-wrp">
+                    <div class="arrow-box">
+                      <a href="#"><img src="./svg/arrow_nav.svg" alt="" /></a>
+                    </div>
+
+                    <div class="ink">ink mode</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- menu social -->
+
+            <div class="menu-slot-3">
+              <a href="#">
+                <div class="inq-link">
+                  Inquiries &nbsp; ⟶ &nbsp;
+                  <span class="ns-span">info@deplacemaison.com</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- dropdown menu small devices -->
+    </nav>
+    <!-- nav mobile menu -->
+
+    <!-- NAVIGATION LARGE SCREEEN -->
+    <nav class="navbar-xl">
+      <div class="navbar__wrapper">
+        <div class="navbar-frame-xl nav-fr-left">
+          <a href="index.html" class="name-app-link-xl">
+            <div class="logo-name-p1">
+              <div class="logo-name-p2">
+                <img
+                  src="./svg/nameApp.svg"
+                  alt="name-app"
+                  class="logo-name-app-xl"
+                />
+                <img
+                  src="./svg/nameApp.svg"
+                  alt="name-app"
+                  class="logo-name-app-xl"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="navbar-frame-xl nav-fr-center">
+          <div class="ink-go">
+            <div class="ink-go__inner">inkmode</div>
+          </div>
+        </div>
+        <div class="navbar-frame-xl nav-fr-right">
+          <a href="#" class="cart-link-xl">
+            <div class="cart-item-xl">
+              <span class="cart-item-xl__lift-1">cart</span>
+              <span class="cart-item-xl__lift-2">cart</span>
+            </div>
+            <div class="cart-amount-xl">0</div>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation large screen -->
+
+    <!-- MAIN SECTION -->
+    <div class="sec-container">
+      <div class="sec-wrapper">
+        <div class="sec-p-section">
+          <h1 class="sec-p-heading">PRIVACY</h1>
+          <div class="sec-p-text">
+            This Privacy Policy describes how we collect, use and share your
+            personal information when you visit or make a purchase from
+            <a href="/" class="sec-p-link">deplacemaison.com</a> (the "Site").
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">PERSONAL INFORMATION THAT WE COLLECT</h2>
+          <div class="sec-p-text">
+            When you visit the Site, we automatically collect certain
+            information about your device, including information about your web
+            browser, your IP address, time zone and some of the cookies
+            installed on your device. In addition, when you browse the Site, we
+            collect information about individual web pages or products you view,
+            which web sites or search terms refer to the Site, and information
+            about how you interact with the Site. This information, which is
+            automatically collected, is called "Device Information".
+          </div>
+          <div class="sec-p-text">
+            We collect information about your device using the following
+            technologies:- Cookies" are data files that are stored on your
+            device or computer and often include an anonymous unique identifier.
+            For more information about cookies and how to disable them, please
+            visit
+            <a href="./cookie-policy" class="sec-p-link"
+              >http://www.deplacemaison.com/cookie-policy</a
+            >
+            - Log files" track actions that occur on the Site and collect data
+            such as IP address, browser type, Internet service provider,
+            referring/exit pages and date/time stamps.- Web beacons", "tags" and
+            "pixels" are electronic files used to record information about how
+            you navigate the Site.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">HOW WE USE YOUR PERSONAL INFORMATION?</h2>
+          <div class="sec-p-text">
+            We use information about orders that we collect in general to
+            process orders placed through the Site (including processing payment
+            data, organizing shipping and providing invoices and/or order
+            confirmations). We also use this order information to:- Communicate
+            with you;- Review our orders for potential risk or fraud; and if in
+            line with your preferences shared with us, provide information or
+            advertising about our products or services.
+          </div>
+          <div class="sec-p-text">
+            We use the device information we collect to help us identify
+            potential risks and fraud (particularly your IP address) and, more
+            generally, to improve and optimize our site (for example, by
+            generating analysis on how our customers navigate and interact with
+            the site and to evaluate the success of our advertising and
+            marketing campaigns).
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">SHARE YOUR PERSONAL INFORMATION</h2>
+          <div class="sec-p-text">
+            We share your personal information with third parties to help us use
+            your personal information as described above. For example, we use
+            Webflow to power our online store - you can learn more about how
+            Webflow uses your personal information
+            here:https://webflow.com/legal/privacy. We also use Google Analytics
+            to help us understand how our customers use the Site - you can learn
+            more about how Google uses your personal information here:
+            https://www.google.com/intl/en/policies/privacy/. You can also opt
+            out of Google Analytics here:
+            https://tools.google.com/dlpage/gaoptout.
+          </div>
+          <div class="sec-p-text">
+            Finally, we may also share your personal information to comply with
+            applicable laws and regulations, to respond to a subpoena, search
+            warrant or other legal request for information we receive, or to
+            otherwise protect our rights.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">BEHAVIOURAL ADVERTISING</h2>
+          <div class="sec-p-text">
+            As described above, we use your personal information to provide you
+            with targeted advertising or marketing communications that we think
+            may be of interest to you. For more information on how targeted
+            advertising works, you can visit the Network Advertising Initiative
+            ("NAI") education page at http://www.networkadvertising.org/
+            <br />
+            understanding-online-advertising/how-does-it-work.
+          </div>
+          <div class="sec-p-text">
+            You can choose not to receive targeted advertising by using the
+            links below:-
+            <br />
+            <br />
+            Facebook:
+            <span class="sec-p-span"
+              >https://www.facebook.com/settings/?tab=ads</span
+            >
+            <br />
+            Google: https://www.google.com/settings/ads/anonymous
+            <br />
+            Bing:https://advertise.bingads.microsoft.com/en/us/resources/policies
+            <br />
+            Mailchimp - You must unsubscribe using the link at the bottom of any
+            Dèplacé Maison direct newsletter or email.
+          </div>
+          <div class="sec-p-text">
+            In addition, you can opt out of some of these services by visiting
+            the Digital Advertising Alliance's opt-out portal at:
+            http://optout.aboutads.info/.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">DO NOT TRADE</h2>
+          <div class="sec-p-text">
+            Please note that we do not change the data collection of our site
+            and usage practices when we see a Do Not Track signal from your
+            browser.Please note that we do not change the data collection of our
+            site and usage practices when we see a Do Not Track signal from your
+            browser.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">YOUR RIGHTS</h2>
+          <div class="sec-p-text">
+            If you are a resident of Europe, you have the right to access the
+            personal data we hold about you and to request that your personal
+            data be corrected, updated or deleted. If you wish to exercise this
+            right, please contact us through the contact information below.
+          </div>
+          <div class="sec-p-text">
+            In addition, if you are a resident of Europe, we note that we are
+            processing your information in order to fulfil any contracts we may
+            have with you (for example, if you place an order through the Site),
+            or otherwise to pursue our legitimate business interests listed
+            above. In addition, please note that your information will be
+            transferred outside of Europe, including to Canada and the United
+            States.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">DATA COLLECTION</h2>
+          <div class="sec-p-text">
+            When you place an order through the Site, we will retain your order
+            information for our records, unless and until you ask us to delete
+            this information.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">VARIATIONS</h2>
+          <div class="sec-p-text">
+            We may periodically update this privacy policy to reflect, for
+            example, changes in our practices or for other operational, legal or
+            regulatory reasons.
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">CONTACT US</h2>
+          <div class="sec-p-text">
+            For more information about our privacy practices, if you have any
+            questions or if you would like to lodge a complaint, please contact
+            us by e-mail at info@deplacemaison.com or by post using the details
+            provided below:
+          </div>
+          <div class="sec-p-text">
+            Progetto 4.0 s.r.l. unipersonale
+            <br />
+            Via Morimondo, 24 - 20143, Milan (MI)
+            <br />
+            VAT No. IT09729880964
+            <br />
+            <a href="#" class="se-p-link">info@deplacemaison.com</a>
+          </div>
+          <div class="sec-p-text p-download">
+            <a href="#" class="sec-p-link">Download here</a>
+            the complete document (IT) for the information on privacy and on the
+            holder of the data treatment: legal-privacy-policy.pdf
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CART -->
+    <div class="cart-wrapper">
+      <div class="cart">
+        <div class="cart__header">
+          <div class="cart__heading">
+            <h4 class="cart-h">YOUR</h4>
+            <h4 class="cart-h cart-h-down">CART</h4>
+          </div>
+          <a href="#" class="cart-close-icon">
+            <img src="./svg/close_icon.svg" alt="close icon">
+          </a>
+        </div>
+        <div class="cart__content">
+          <div class="cart__text-block">
+            Add to cart first, commit later!
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="f-col1">
+        <div class="f-col1__letter">
+          <h5>subscribe to newsletter</h5>
+          <div class="f-col1__wrp-icon">
+            <img src="./svg/newsletter-face.svg" alt="">
+          </div>
+        </div>
+        <div class="f-col1-down">
+          <div class="f-col1-down__inner">
+            <form id="email-form">
+              <div class="form-wrap">
+                <div class="form-content">
+                  <label for="newsletter">subscribe to our newsletter</label>
+                  <input type="email" name="newsletter" id="newsletter" placeholder="email address" required class="submit-footer">
+                </div>
+                <div class="form-button">
+                  <input type="submit" value="submit">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="f-col2">
+        <div class="f-wrp-up">
+          <h5>info</h5>
+          <a href="./faq.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">FAQ</div>
+              <div class="f-inner__link-down">FAQ</div>
+            </div>
+          </a>
+          <a href="./returns.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">returns</div>
+              <div class="f-inner__link-down">returns</div>
+            </div>
+          </a>
+          <a href="./contact.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">contact</div>
+              <div class="f-inner__link-down">contact</div>
+            </div>
+          </a>
+        </div>
+        <div class="f-wrp-down">
+          <a href="./credits.html" class="f-wrp-down__link">credits</a>
+        </div>
+      </div>
+      <div class="f-col3">
+        <div class="f-wrp-up">
+          <h5>policy</h5>
+          <a href="./terms-conditions.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">terms</div>
+              <div class="f-inner__link-down">terms</div>
+            </div>
+          </a>
+          <a href="./privacy-policy.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">privacy</div>
+              <div class="f-inner__link-down">privacy</div>
+            </div>
+          </a>
+          <a href="./cookie-policy.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">cookie</div>
+              <div class="f-inner__link-down">cookie</div>
+            </div>
+          </a>
+        </div>
+        <div class="f-wrp-down">
+          <h5>&copy; 2020 déplace maison.</h5>
+        </div>
+      </div>
+      <div class="f-col4">
+        <div class="f-col4__container">
+          <a href="#top" class="footer__arrow">
+            <img src="./svg/circle-container.svg" alt="circle-link">
+            <img src="./svg/arrow.svg" alt="arrow-link">
+          </a>
+        </div>
+        <div class="f-col4__down">
+          <div class="col-4-social-fb">
+            <a href="#">
+              <img src="./svg/facebook-black.svg" alt="facebook-link">
+            </a>
+          </div>
+          <div class="f-col4-social-inst">
+            <a href="#">
+              <img src="./svg/instagram-black.svg" alt="instagram-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script type="module" src="./js/dropdownMenuAnim.js"></script>
+    <script type="module" src="./js/inkHomeAnim.js"></script>
+    <script type="module" src="./js/logoAnim.js"></script>
+    <script type="module" src="./js/sidebarAnim.js"></script>
+    <script type="module" src="./js/footerArrowAnim.js"></script>
+    <script type="module" src="./js/footerListAnim.js"></script>
+    <script type="module" src="./js/cartLinkAnim.js"></script>
+    <script type="module" src="./js/cartAnim.js"></script>
+    <script type="module" src="./js/loaderJpn.js"></script>
+    <script type="module" src="./js/cursor.js"></script>
+    <script type="module" src="./js/viewportObserver.js"></script>
+  </body>
+</html>

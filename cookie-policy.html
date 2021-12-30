@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./svg/logomark.svg" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Déplacé Maison – Cookie</title>
+</head>
+
+<body>
+  <!-- CURSOR -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo"></feColorMatrix>
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+        </filter>
+    </defs>
+  </svg>
+  <div id="cursor"></div>
+
+  <!-- LOADER JPAN -->
+  <div class="loader-jpn">
+    <div class="loader-jpn__inner">
+      <div class="loader-jpn__logo-wrap">
+        <img src="./svg/jap-text.svg" alt=".japan-text" class="jpn-logo" />
+        <div class="japan-logo-mask"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR LARGE DEVICES -->
+  <div class="sidebar">
+    <div class="sidebar__wrap">
+      <a href="./shop.html" class="sb-achr-1">
+        <div class="sidebar__drawer drwr-1">
+          <div class="sidebar__link">shop</div>
+          <div class="sidebar__link sidebar__link-copy">shop</div>
+        </div>
+      </a>
+      <a href="./collections.html" class="sb-achr-2">
+        <div class="sidebar__drawer drwr-2">
+          <div class="sidebar__link">collections</div>
+          <div class="sidebar__link sidebar__link-copy">collections</div>
+        </div>
+      </a>
+      <a href="./about.html" class="sb-achr-3">
+        <div class="sidebar__drawer drwr-3">
+          <div class="sidebar__link">about</div>
+          <div class="sidebar__link sidebar__link-copy">about</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- NAVIGATION MOBILE SCREEEN -->
+  <nav class="navbar-mobile">
+    <div class="navbar-frame">
+      <div class="navbar-frame-slot">
+        <a href="index.html" class="name-app-link">
+          <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+          <img src="./svg/nameApp-trans.svg" alt="name-app" class="logo-name-app logo-trans" />
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="menu-trigger">
+          <div class="menu-line" id="toggle-line-1"></div>
+          <div class="menu-line" id="toggle-line-2"></div>
+          <div class="menu-line" id="toggle-line-3"></div>
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="cart-link">
+          <div class="cart-item">cart</div>
+          <div class="cart-amount">0</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- DROPDOWN MENU SMALL DEVICES -->
+    <div class="nav-menu">
+      <div class="nav-menu__inner">
+        <div class="menu-slot-1">
+          <div class="menu-slot-1__text">
+            <span class="menu-slot-1__text__pop">TABS</span>
+          </div>
+          <div class="menu-slot-underline"></div>
+          <div class="menu-slot-1__links">
+            <a href="./shop.html">
+              <h2>
+                <span class="link-pop">SHOP</span>
+              </h2>
+            </a>
+            <a href="./collections.html">
+              <h2>
+                <span class="link-pop">COLLECTIONS</span>
+              </h2>
+            </a>
+            <a href="./about.html">
+              <h2>
+                <span class="link-pop">ABOUT</span>
+              </h2>
+            </a>
+          </div>
+          <div class="nav-slot-1-footer">
+            <div class="nav-slot-1-footer__b1">
+              <div class="m-s-footer-link">
+                <a href="./faq.html">FAQ</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./terms-conditions.html">TERMS</a>
+              </div>
+            </div>
+            <div class="nav-slot-1-footer__b2">
+              <div class="m-s-footer-link">
+                <a href="./returns.html">RETURNS</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./privacy-policy.html">PRIVACY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-slot-2">
+          <!-- MENU SOCIAL SECTION -->
+          <div class="menu-social">
+            <div class="social-inner">
+              <div class="social-inner__slot-1">
+                <a href="#"><img src="./svg/facebook.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-2">
+                <a href="#"><img src="./svg/instagram.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-3">
+                <div class="arrow-box-wrp">
+                  <div class="arrow-box">
+                    <a href="#"><img src="./svg/arrow_nav.svg" alt="" /></a>
+                  </div>
+
+                  <div class="ink">ink mode</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- menu social -->
+
+          <div class="menu-slot-3">
+            <a href="#">
+              <div class="inq-link">
+                Inquiries &nbsp; ⟶ &nbsp;
+                <span class="ns-span">info@deplacemaison.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dropdown menu small devices -->
+  </nav>
+  <!-- nav mobile menu -->
+
+  <!-- NAVIGATION LARGE SCREEEN -->
+  <nav class="navbar-xl">
+    <div class="navbar__wrapper">
+      <div class="navbar-frame-xl nav-fr-left">
+        <a href="index.html" class="name-app-link-xl">
+          <div class="logo-name-p1">
+            <div class="logo-name-p2">
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-frame-xl nav-fr-center">
+        <div class="ink-go">
+          <div class="ink-go__inner">inkmode</div>
+        </div>
+      </div>
+      <div class="navbar-frame-xl nav-fr-right">
+        <a href="#" class="cart-link-xl">
+          <div class="cart-item-xl">
+            <span class="cart-item-xl__lift-1">cart</span>
+            <span class="cart-item-xl__lift-2">cart</span>
+          </div>
+          <div class="cart-amount-xl">0</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- navigation large screen -->
+
+  <!-- MAIN SECTION -->
+  <div class="sec-container">
+    <div class="sec-wrapper">
+      <div class="sec-p-section">
+        <h1 class="sec-p-heading">COOKIES</h1>
+        <div class="sec-p-text">
+          Progetto 4.0 s.r.l. unipersonale (hereinafter also "Progetto 4.0"),
+          with head office in Milan, at via Morimondo n. 24 (VAT NO.
+          09729880964), operator of the site www.deplacemaison.com . It
+          provides you with the following information about the use of cookies
+          on the Site.
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">WHAT ARE COOKIES?</h2>
+        <div class="sec-p-text">
+          As is common practice at almost all professional websites, this site
+          uses cookies, which are small files that are downloaded to your
+          computer, to enhance your experience. This page describes what
+          information is collected, how we use it, and why we sometimes need
+          to store these cookies. We also share how you can prevent the
+          storage of these cookies, but this may compromise or "break" certain
+          elements of the functionality of the sites.
+        </div>
+        <div class="sec-p-text">
+          For more general information about cookies, see the Wikipedia
+          article on HTTP cookies.
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">HOW DO WE USE COOKIES?</h2>
+        <div class="sec-p-text">
+          We use cookies for different reasons, which are set out below.
+          Unfortunately, in most cases there are no industry standard options
+          for disabling cookies without completely disabling the features and
+          functionality they add to this site. We recommend that you leave on
+          all cookies if you are not sure whether you need them or not in case
+          they are used to provide a service that you use.
+          <br />
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">WHAT COOKIES ARE INCLUDED IN THE SITE?</h2>
+          <div class="sec-p-text">
+            a. Cookies related to email newsletters
+            <br />
+            This site offers newsletter services or email subscription services and cookies can be used to remember if
+            you are already registered and if you show some notifications that may only be valid for
+            registered/non-registered users.
+            <br />
+            &zwj;
+            <br />
+            b. Processing of orders relating to cookies
+            <br />
+            This site offers e-commerce or payment options and some cookies are essential to ensure that your order is
+            remembered between the pages so that we can process it properly.
+            <br />
+            &zwj;
+            <br />
+            c. Cookies related to modules
+            <br />
+            When you send data via a form such as the contact pages or comment forms, cookies can be set to remember
+            your data for future correspondence.
+            <br />
+            &zwj;
+            <br />
+            d. Site Preference Cookies
+            <br />
+            In order to provide you with a great experience on this site we provide you with the functionality to set
+            your preferences for how this site works when you use it. In order to remember your preferences we need to
+            set cookies so that this information can be called whenever you interact with a page is affected by your
+            preferences.
+          </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">THIRD PARTY COOKIES </h2>
+        <div class="sec-p-text">
+          In some cases we also use cookies provided by trusted third parties. The following section details which third
+          party cookies you may encounter through this site.
+          <br />
+          &zwj;
+          <br />
+          1. This site uses Google Analytics which is one of the most popular and reliable analysis solutions on the
+          web to help us understand how you use the site and how we can improve your experience. These cookies can
+          track things like the time you spend on the site and the pages you visit so that we can continue to produce
+          compelling content.
+          <br />
+          &zwj;
+          <br />
+          For more information about Google Analytics cookies, please visit the official Google Analytics page.
+          <br />
+          &zwj;
+          <br />
+          2. From time to time we test new features and make subtle changes to the way the site is delivered. When we
+          are still testing new features, these cookies can be used to ensure that you receive a consistent experience
+          while you are on the site, while ensuring that we understand which optimizations our users most appreciate.
+          <br />
+          &zwj;
+          <br />
+          3. Because we sell products, it is important for us to understand statistics about how many visitors to our
+          site actually make a purchase and as such this is the type of data these cookies will track. This is important
+          to you because it means that we can make accurate business forecasts that allow us to monitor our advertising
+          and product costs to ensure the best possible price.
+          <br />
+          &zwj;
+          <br />
+          On this site we also use buttons and/or social media plugins that allow you to connect in various ways with
+          your social network. For these to work, the following social media sites, including:
+          <br />
+          &zwj;
+          <br />
+          a. Facebook
+          <br />
+          &zwj;
+          <br />
+          It will set cookies through our site that may be used to improve your profile on their site or contribute to
+          the data they hold for various purposes set out in their respective privacy policies.
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">Managing your Cookie Preferences</h2>
+        <div class="sec-p-text">
+          When you access any page of the site, there is a banner that contains a simplified information. By continuing
+          to browse, by accessing another area of the Site or selecting an element of the same (a link), the user
+          automatically consents to the use of cookies. You can change and manage your cookie preferences, either
+          through the Site or through your browser settings:
+          <br />
+          &zwj;
+          <br />
+          a. Through the websiteYou can express or deny your consent to the use of profiling cookies when you access any
+          page of the site www.deplacemaison.com . In addition, through the opt-out links indicated in the previous
+          paragraph, it is possible to disable third-party cookies.
+          <br />
+          &zwj;
+          <br />
+          b. Through the web browser settingsIf you wish to block or delete cookies received from the Site or any other
+          site, you can also do so by changing your browser settings through the function provided.
+          <br />
+          &zwj;
+          <br />
+          Below we provide links to the instructions of the following browsers:
+          <br />
+          Internet Explorer - http://windows.microsoft.com/en-gb/windows-vista/block-or-allow-cookies
+          <br />
+          Chrome - https://support.google.com/chrome/answer/95647
+          <br />
+          Firefox - https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
+          <br />
+          Opera - http://www.opera.com/help/tutorials/security/privacy/Safari - http://support.apple.com/kb/PH17191
+          <br />
+          &zwj;
+          <br />
+          We remind you that disabling all cookies, including navigation and functionality cookies, may cause
+          inconvenience to the navigation on the Site and prevent the use of certain features of the Site. For example,
+          you may not be able to access certain features of the Site or make purchases. We therefore recommend that you
+          do not disable cookies.
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">SCOPE OF DATA COMMUNICATION AND DISSEMINATION </h2>
+        <div class="sec-p-text">
+          Scope of communication and dissemination of dataThe data acquired through cookies are processed by employees
+          and collaborators of the Company, expressly designated as persons in charge of or responsible for processing.
+          <br />
+          <br />
+          Such data may also be processed by third party companies that carry out technical and organisational tasks on
+          behalf of Progetto 4.0 (by way of example: web service providers.). These companies are designated as data
+          processors.
+          <br />
+          &zwj;
+          <br />
+          The data acquired using cookies can be transferred abroad adopting the necessary measures and precautions
+          provided by the applicable regulations in order to ensure an adequate level of security and data protection,
+          but will in no case be disclosed to indeterminate subjects.
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">SYOUR RIGHTS</h2>
+        <div class="sec-p-text">
+          At any time request information on the processing of your personal data, obtain the updating, rectification or
+          integration of the same, as well as obtain the cancellation, limitation of processing and oppose the
+          processing as provided for in the European Regulation on the Protection of Personal Data (EU Regulation
+          2016/679 - "GDPR").
+          <br />
+          &zwj;
+          <br />
+          You will also have the right to revoke your consent at any time, without prejudice to the lawfulness of the
+          processing based on the consent given prior to revocation and to lodge a complaint with the Guarantor
+          Authority for the Protection of Personal Data, Piazza di Montecitorio n. 121, 00186, Rome (RM).
+          <br />
+          &zwj;
+          <br />
+          In order to exercise your rights, you can contact the Data Controller or his Personal Data Protection Officer
+          ("DPO") by sending a written communication to the address indicated in the next paragraph or by e-mail to
+          info@deplacemaison.com
+        </div>
+      </div>
+      <div class="sec-p-section">
+        <h2 class="sec-p-title">CONTACT DETAILS</h2>
+        <div class="sec-p-text">
+          Progetto 4.0 s.r.l. unipersonale
+          <br />
+          Via Morimondo, 2420143, Milan (MI) 
+          <br />
+          <a href="#" class="sec-p-link">info@deplacemaison.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CART -->
+  <div class="cart-wrapper">
+    <div class="cart">
+      <div class="cart__header">
+        <div class="cart__heading">
+          <h4 class="cart-h">YOUR</h4>
+          <h4 class="cart-h cart-h-down">CART</h4>
+        </div>
+        <a href="#" class="cart-close-icon">
+          <img src="./svg/close_icon.svg" alt="close icon">
+        </a>
+      </div>
+      <div class="cart__content">
+        <div class="cart__text-block">
+          Add to cart first, commit later!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="f-col1">
+      <div class="f-col1__letter">
+        <h5>subscribe to newsletter</h5>
+        <div class="f-col1__wrp-icon">
+          <img src="./svg/newsletter-face.svg" alt="">
+        </div>
+      </div>
+      <div class="f-col1-down">
+        <div class="f-col1-down__inner">
+          <form id="email-form">
+            <div class="form-wrap">
+              <div class="form-content">
+                <label for="newsletter">subscribe to our newsletter</label>
+                <input type="email" name="newsletter" id="newsletter" placeholder="email address" required class="submit-footer">
+              </div>
+              <div class="form-button">
+                <input type="submit" value="submit">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="f-col2">
+      <div class="f-wrp-up">
+        <h5>info</h5>
+        <a href="./faq.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">FAQ</div>
+            <div class="f-inner__link-down">FAQ</div>
+          </div>
+        </a>
+        <a href="./returns.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">returns</div>
+            <div class="f-inner__link-down">returns</div>
+          </div>
+        </a>
+        <a href="./contact.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">contact</div>
+            <div class="f-inner__link-down">contact</div>
+          </div>
+        </a>
+      </div>
+      <div class="f-wrp-down">
+        <a href="./credits.html" class="f-wrp-down__link">credits</a>
+      </div>
+    </div>
+    <div class="f-col3">
+      <div class="f-wrp-up">
+        <h5>policy</h5>
+        <a href="./terms-conditions.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">terms</div>
+            <div class="f-inner__link-down">terms</div>
+          </div>
+        </a>
+        <a href="./privacy-policy.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">privacy</div>
+            <div class="f-inner__link-down">privacy</div>
+          </div>
+        </a>
+        <a href="./cookie-policy.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">cookie</div>
+            <div class="f-inner__link-down">cookie</div>
+          </div>
+        </a>
+      </div>
+      <div class="f-wrp-down">
+        <h5>&copy; 2020 déplace maison.</h5>
+      </div>
+    </div>
+    <div class="f-col4">
+      <div class="f-col4__container">
+        <a href="#top" class="footer__arrow">
+          <img src="./svg/circle-container.svg" alt="circle-link">
+          <img src="./svg/arrow.svg" alt="arrow-link">
+        </a>
+      </div>
+      <div class="f-col4__down">
+        <div class="col-4-social-fb">
+          <a href="#">
+            <img src="./svg/facebook-black.svg" alt="facebook-link">
+          </a>
+        </div>
+        <div class="f-col4-social-inst">
+          <a href="#">
+            <img src="./svg/instagram-black.svg" alt="instagram-link">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script type="module" src="./js/dropdownMenuAnim.js"></script>
+  <script type="module" src="./js/inkHomeAnim.js"></script>
+  <script type="module" src="./js/logoAnim.js"></script>
+  <script type="module" src="./js/sidebarAnim.js"></script>
+  <script type="module" src="./js/footerArrowAnim.js"></script>
+  <script type="module" src="./js/footerListAnim.js"></script>
+  <script type="module" src="./js/cartLinkAnim.js"></script>
+  <script type="module" src="./js/loaderJpn.js"></script>
+  <script type="module" src="./js/cartAnim.js"></script>
+  <script type="module" src="./js/cursor.js"></script>
+  <script type="module" src="./js/viewportObserver.js"></script>
+</body>
+
+</html>

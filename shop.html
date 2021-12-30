@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./svg/logomark.svg" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Déplacé Maison – Shop</title>
+</head>
+
+<body>
+  <!-- CURSOR -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo">
+        </feColorMatrix>
+        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+      </filter>
+    </defs>
+  </svg>
+  <div id="cursor"></div>
+
+  <!-- LOADER JPAN -->
+  <div class="loader-jpn">
+    <div class="loader-jpn__inner">
+      <div class="loader-jpn__logo-wrap">
+        <img src="./svg/jap-text.svg" alt=".japan-text" class="jpn-logo">
+        <div class="japan-logo-mask"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR LARGE DEVICES -->
+  <div class="sidebar">
+    <div class="sidebar__wrap">
+      <a href="./shop.html" class="sb-achr-1">
+        <div class="sidebar__drawer drwr-1">
+          <div class="sidebar__link">shop</div>
+          <div class="sidebar__link sidebar__link-copy">shop</div>
+        </div>
+      </a>
+      <a href="./collections.html" class="sb-achr-2">
+        <div class="sidebar__drawer drwr-2">
+          <div class="sidebar__link">collections</div>
+          <div class="sidebar__link sidebar__link-copy">collections</div>
+        </div>
+      </a>
+      <a href="./about.html" class="sb-achr-3">
+        <div class="sidebar__drawer drwr-3">
+          <div class="sidebar__link">about</div>
+          <div class="sidebar__link sidebar__link-copy">about</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- NAVIGATION MOBILE SCREEEN -->
+  <nav class="navbar-mobile">
+    <div class="navbar-frame">
+      <div class="navbar-frame-slot">
+        <a href="index.html" class="name-app-link">
+          <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+          <img src="./svg/nameApp-trans.svg" alt="name-app" class="logo-name-app logo-trans" />
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="menu-trigger">
+          <div class="menu-line" id="toggle-line-1"></div>
+          <div class="menu-line" id="toggle-line-2"></div>
+          <div class="menu-line" id="toggle-line-3"></div>
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="cart-link">
+          <div class="cart-item">cart</div>
+          <div class="cart-amount">0</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- DROPDOWN MENU SMALL DEVICES -->
+    <div class="nav-menu">
+      <div class="nav-menu__inner">
+        <div class="menu-slot-1">
+          <div class="menu-slot-1__text">
+            <span class="menu-slot-1__text__pop">TABS</span>
+          </div>
+          <div class="menu-slot-underline"></div>
+          <div class="menu-slot-1__links">
+            <a href="./shop.html">
+              <h2>
+                <span class="link-pop">SHOP</span>
+              </h2>
+            </a>
+            <a href="./collections.html">
+              <h2>
+                <span class="link-pop">COLLECTIONS</span>
+              </h2>
+            </a>
+            <a href="./about.html">
+              <h2>
+                <span class="link-pop">ABOUT</span>
+              </h2>
+            </a>
+          </div>
+          <div class="nav-slot-1-footer">
+            <div class="nav-slot-1-footer__b1">
+              <div class="m-s-footer-link">
+                <a href="./faq.html">FAQ</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./terms-conditions.html">TERMS</a>
+              </div>
+            </div>
+            <div class="nav-slot-1-footer__b2">
+              <div class="m-s-footer-link">
+                <a href="./returns.html">RETURNS</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./privacy-policy.html">PRIVACY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-slot-2">
+          <!-- MENU SOCIAL SECTION -->
+          <div class="menu-social">
+            <div class="social-inner">
+              <div class="social-inner__slot-1">
+                <a href="#"><img src="./svg/facebook.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-2">
+                <a href="#"><img src="./svg/instagram.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-3">
+                <div class="arrow-box-wrp">
+                  <div class="arrow-box">
+                    <a href="#"><img src="./svg/arrow_nav.svg" alt="" /></a>
+                  </div>
+
+                  <div class="ink">ink mode</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- menu social -->
+
+          <div class="menu-slot-3">
+            <a href="#">
+              <div class="inq-link">
+                Inquiries &nbsp; ⟶ &nbsp;
+                <span class="ns-span">info@deplacemaison.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dropdown menu small devices -->
+  </nav>
+  <!-- nav mobile menu -->
+
+  <!-- NAVIGATION LARGE SCREEEN -->
+  <nav class="navbar-xl">
+    <div class="navbar__wrapper">
+      <div class="navbar-frame-xl nav-fr-left">
+        <a href="index.html" class="name-app-link-xl">
+          <div class="logo-name-p1">
+            <div class="logo-name-p2">
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-frame-xl nav-fr-center hide-ink-mode">
+        <div class="ink-go">
+          <div class="ink-go__inner">inkmode</div>
+        </div>
+      </div>
+      <div class="navbar-frame-xl nav-fr-right">
+        <a href="#" class="cart-link-xl">
+          <div class="cart-item-xl">
+            <span class="cart-item-xl__lift-1">cart</span>
+            <span class="cart-item-xl__lift-2">cart</span>
+          </div>
+          <div class="cart-amount-xl">0</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- navigation large screen -->
+
+  <!-- SHOP APP -->
+  <div class="shop">
+    <div class="shop__inner">
+
+      <div class="shop__top-bar">
+        <a href="#">
+          <div class="s-top-link">SS/20</div>
+          <div class="s-top-number">5</div>
+        </a>
+        <a href="#">
+          <div class="s-top-link">all</div>
+          <div class="s-top-number">10</div>
+        </a>
+        <a href="#">
+          <div class="s-top-link">FW/19</div>
+          <div class="s-top-number">5</div>
+        </a>
+      </div>
+
+      <div class="shop__container">
+        <div class="shop__column shop-column-left">
+          <div class="shop__column__inner shop-col-left">
+            <div class="shop__listitem">
+              <a href="./product/cactus.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/5ecf8747b314ba36a789e3c4_ct-army-side-p-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">SS/20</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        CACTUS
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;300&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;180&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+              <a href="./product/tunney.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/5d1c6f6d8da84233fd95d366_tunney__man-white-p-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">FW/19</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        TUNNEY
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;230&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;92&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+              <a href="./product/carnera.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/5d1c6d608da84253fa95bd18_carnera__man-black-p-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">FW/19</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        CARNERA
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;230&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;92&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+              <a href="./product/theCode.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/5ed0cf7411a8b0b111096fd5_tc-black-side-p-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">SS/20</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        The Code
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;240&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;144&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+          </div>
+        </div> <!-- slide column / -->
+
+        <div class="shop__column shop-column-right">
+          <div class="shop__column__inner shop-col-right">
+            <div class="shop__listitem">
+              <a href="./product/rivolta.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/5d1c71fe2b2ad2131b466c86_rivolta-black-p-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">FW/19</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        Rivolta
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;405&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;162&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+              <a href="./product/theEye.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/theEye-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">SS/20</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        The Eye
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;240&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;144&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+              <a href="./product/duran.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/5d1c6e8d208766b1b3d5cdfa_duran__man-white-p-800.jpeg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">SS/20</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        Duran
+                      </div>
+                    </div>
+                    <div class="shop__item-price">
+                      €&nbsp;240&nbsp;EUR
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;144&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+             <a href="./product/trescia.html">
+              <div class="shop__listitem__inner">
+                <div class="shop__item-img-wrp">
+                  <img src="./img/trescia.jpg" alt="shoes">
+                </div>
+                <div class="shop__item-details-wrp">
+                  <div class="shop__item-label">
+                    <img src="./svg/unisex-label.svg" alt="shoes-label">
+                    <div class="shop__item-season">SS/20</div>
+                  </div>
+                  <div class="shop__item-name">
+                    <div class="shop__item-name-txt">
+                      Trescia
+                    </div>
+                  </div>
+                  <div class="shop__item-discount">
+                    €&nbsp;150&nbsp;EUR
+                  </div>
+                </div>
+              </div>
+             </a>
+            </div> <!-- item carousel -->
+
+            <div class="shop__listitem">
+              <a href="./product/pantafaca.html">
+                <div class="shop__listitem__inner">
+                  <div class="shop__item-img-wrp">
+                    <img src="./img/pantafaca.jpg" alt="shoes">
+                  </div>
+                  <div class="shop__item-details-wrp">
+                    <div class="shop__item-label">
+                      <img src="./svg/unisex-label.svg" alt="shoes-label">
+                      <div class="shop__item-season">FW/20</div>
+                    </div>
+                    <div class="shop__item-name">
+                      <div class="shop__item-name-txt">
+                        Pantafaca
+                      </div>
+                    </div>
+                    <div class="shop__item-discount">
+                      €&nbsp;150&nbsp;EUR
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div> <!-- item carousel -->
+          </div>
+        </div> <!-- slide column / -->
+
+      </div> <!-- shop container / -->
+    </div> <!-- shop / -->
+
+
+    <!-- CART -->
+    <div class="cart-wrapper">
+      <div class="cart">
+        <div class="cart__header">
+          <div class="cart__heading">
+            <h4 class="cart-h">YOUR</h4>
+            <h4 class="cart-h cart-h-down">CART</h4>
+          </div>
+          <a href="#" class="cart-close-icon">
+            <img src="./svg/close_icon.svg" alt="close icon">
+          </a>
+        </div>
+        <div class="cart__content">
+          <div class="cart__text-block">
+            Add to cart first, commit later!
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script type="module" src="./js/dropdownMenuAnim.js"></script>
+    <script type="module" src="./js/inkHomeAnim.js"></script>
+    <script type="module" src="./js/logoAnim.js"></script>
+    <script type="module" src="./js/sidebarAnim.js"></script>
+    <script type="module" src="./js/cartLinkAnim.js"></script>
+    <script type="module" src="./js/cartAnim.js"></script>
+    <script type="module" src="./js/loaderJpn.js"></script>
+    <script type="module" src="./js/shopSlider.js"></script>
+    <script type="module" src="./js/cursor.js"></script>
+    <script type="module" src="./js/viewportObserver.js"></script>
+</body>
+
+</html>
+
+

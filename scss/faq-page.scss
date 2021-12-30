@@ -1,0 +1,112 @@
+/* FAQ PAGE 
+=====================*/
+
+.sec-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  background-color: #fcf9ee;
+  text-transform: none;
+  font-weight: lighter;
+}
+
+.sec-wrapper {
+  width: 85vw;
+  padding-top: 23vw;
+  padding-bottom: 20vw;
+}
+
+.sec-p-section {
+  position: relative;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.sec-p-heading {
+  font-size: 60px;
+  line-height: 60px;
+  padding-right: 2vw;
+}
+
+.sec-p-title {
+  margin-bottom: 4vw;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -.06em;
+  text-transform: uppercase;
+}
+
+.sec-p-text {
+  margin-bottom: 9vw;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -.04em;
+}
+
+.sec-p-link {
+  font-size: 5vw;
+  line-height: 5vw;
+  text-decoration: underline;
+  text-transform: none;
+  letter-spacing: -.04em;
+}
+
+
+/* MEDIA QUERIES
+===================================== */
+@media screen and (min-width: 479px) {
+  .sec-wrapper {
+    width: 90vw;
+    padding-top: 15vw;
+    padding-bottom: 10vw;
+  }
+
+  .sec-p-heading {
+    font-size: 70px;
+    line-height: 70px;
+    padding-right: 2vw;
+  }
+
+  .sec-p-title {
+    margin-bottom: 1vw;
+  }
+
+  .sec-p-text {
+    margin-bottom: 1.5vw;
+    line-height: 22px;
+  }
+
+  .sec-p-link {
+    font-size: 19px;
+    line-height: 19px;
+  }
+}
+
+
+@media screen and (min-width: 991px) {
+  .sec-wrapper {
+    width: 50vw;
+    padding-top: 7vw;
+  }
+
+  .sec-p-heading {
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+
+  .sec-p-title {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  .sec-p-text {
+    font-size: 1.4vw;
+    line-height: 1.8vw;
+  }
+
+  .sec-p-link {
+    font-size: 1.4vw;
+    line-height: 1.5vw;
+  }
+}
+

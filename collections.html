@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./svg/logomark.svg" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Déplacé Maison | Collections</title>
+</head>
+
+<body style="background-color: #fcf9ee;">
+  <!-- CURSOR -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo">
+        </feColorMatrix>
+        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+      </filter>
+    </defs>
+  </svg>
+  <div id="cursor"></div>
+
+  <!-- LOADER JPAN -->
+  <div class="loader-jpn">
+    <div class="loader-jpn__inner">
+      <div class="loader-jpn__logo-wrap">
+        <img src="../svg/jap-text.svg" alt=".japan-text" class="jpn-logo">
+        <div class="japan-logo-mask"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR LARGE DEVICES -->
+  <div class="sidebar">
+    <div class="sidebar__wrap">
+      <a href="./shop.html" class="sb-achr-1">
+        <div class="sidebar__drawer drwr-1">
+          <div class="sidebar__link">shop</div>
+          <div class="sidebar__link sidebar__link-copy">shop</div>
+        </div>
+      </a>
+      <a href="./collections.html" class="sb-achr-2">
+        <div class="sidebar__drawer drwr-2">
+          <div class="sidebar__link">collections</div>
+          <div class="sidebar__link sidebar__link-copy">collections</div>
+        </div>
+      </a>
+      <a href="./about.html" class="sb-achr-3">
+        <div class="sidebar__drawer drwr-3">
+          <div class="sidebar__link">about</div>
+          <div class="sidebar__link sidebar__link-copy">about</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- NAVIGATION MOBILE SCREEEN -->
+  <nav class="navbar-mobile">
+    <div class="navbar-frame">
+      <div class="navbar-frame-slot">
+        <a href="index.html" class="name-app-link">
+          <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+          <img src="./svg/nameApp-trans.svg" alt="name-app" class="logo-name-app logo-trans" />
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="menu-trigger">
+          <div class="menu-line" id="toggle-line-1"></div>
+          <div class="menu-line" id="toggle-line-2"></div>
+          <div class="menu-line" id="toggle-line-3"></div>
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="cart-link">
+          <div class="cart-item">cart</div>
+          <div class="cart-amount">0</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- DROPDOWN MENU SMALL DEVICES -->
+    <div class="nav-menu">
+      <div class="nav-menu__inner">
+        <div class="menu-slot-1">
+          <div class="menu-slot-1__text">
+            <span class="menu-slot-1__text__pop">TABS</span>
+          </div>
+          <div class="menu-slot-underline"></div>
+          <div class="menu-slot-1__links">
+            <a href="./shop.html">
+              <h2>
+                <span class="link-pop">SHOP</span>
+              </h2>
+            </a>
+            <a href="#">
+              <h2>
+                <span class="link-pop">COLLECTIONS</span>
+              </h2>
+            </a>
+            <a href="#">
+              <h2>
+                <span class="link-pop">ABOUT</span>
+              </h2>
+            </a>
+          </div>
+          <div class="nav-slot-1-footer">
+            <div class="nav-slot-1-footer__b1">
+              <div class="m-s-footer-link">
+                <a href="./faq.html">FAQ</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./terms-conditions.html">TERMS</a>
+              </div>
+            </div>
+            <div class="nav-slot-1-footer__b2">
+              <div class="m-s-footer-link">
+                <a href="./returns.html">RETURNS</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./privacy-policy.html">PRIVACY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-slot-2">
+
+          <!-- MENU SOCIAL SECTION -->
+          <div class="menu-social">
+            <div class="social-inner">
+              <div class="social-inner__slot-1">
+                <a href="#"><img src="./svg/facebook.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-2">
+                <a href="#"><img src="./svg/instagram.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-3">
+                <div class="arrow-box-wrp">
+                  <div class="arrow-box">
+                    <a href="#"><img src="./svg/arrow_nav.svg" alt="" /></a>
+                  </div>
+
+                  <div class="ink">ink mode</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- menu social -->
+
+          <div class="menu-slot-3">
+            <a href="#">
+              <div class="inq-link">
+                Inquiries &nbsp; ⟶ &nbsp;
+                <span class="ns-span">info@deplacemaison.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dropdown menu small devices -->
+  </nav>
+  <!-- nav mobile menu -->
+
+  <!-- NAVIGATION LARGE SCREEEN -->
+  <nav class="navbar-xl">
+    <div class="navbar__wrapper">
+      <div class="navbar-frame-xl nav-fr-left">
+        <a href="index.html" class="name-app-link-xl">
+          <div class="logo-name-p1">
+            <div class="logo-name-p2">
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-frame-xl nav-fr-center">
+        <div class="ink-go">
+          <div class="ink-go__inner">inkmode</div>
+        </div>
+      </div>
+      <div class="navbar-frame-xl nav-fr-right">
+        <a href="#" class="cart-link-xl">
+          <div class="cart-item-xl">
+            <span class="cart-item-xl__lift-1">cart</span>
+            <span class="cart-item-xl__lift-2">cart</span>
+          </div>
+          <div class="cart-amount-xl">0</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- navigation large screen -->
+
+
+<div class="coll-app">
+
+  <!-- COLLECTIONS MARQUEE -->
+  <div class="coll-marquee">
+    <div class="coll-marquee__inner">
+      <div class="coll-marquee__text">
+        <div class="coll-marquee__content">
+          <h1 class="coll-marquee__heading">
+            Colour shades mixed with urban trekking art and outdoor.
+          </h1>
+        </div>
+        <div class="coll-marquee__content">
+          <h1 class="coll-marquee__heading">
+            Colour shades mixed with urban trekking art and outdoor.
+          </h1>
+        </div>
+        <div class="coll-marquee__content">
+          <h1 class="coll-marquee__heading">
+            Colour shades mixed with urban trekking art and outdoor.
+          </h1>
+        </div>
+        <div class="coll-marquee__content">
+          <h1 class="coll-marquee__heading">
+            Colour shades mixed with urban trekking art and outdoor.
+          </h1>
+        </div>
+        <div class="coll-marquee__content">
+          <h1 class="coll-marquee__heading">
+            Colour shades mixed with urban trekking art and outdoor.
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- COMMANDS SECTION -->
+  <div class="commands">
+    <div class="commands__wrap-1">
+      <div class="commands__counter-wrap">
+        <div class="commands__counter-inner">
+          <div class="commands__count-number commands-count-selected" data-slide="1">01</div>
+          <div class="commands__count-number" data-slide="2">02</div>
+          <div class="commands__count-number" data-slide="3">03</div>
+          <div class="commands__count-number" data-slide="4">04</div>
+          <div class="commands__count-number" data-slide="5">05</div>
+          <div class="commands__count-number" data-slide="6">06</div>
+          <div class="commands__count-number" data-slide="7">07</div>
+          <div class="commands__count-number" data-slide="8">08</div>
+          <div class="commands__count-number" data-slide="9">09</div>
+        </div>
+        <div class="commands__counter-side">
+          <div class="commands__count-number">/09</div>
+        </div>
+      </div>
+    </div>
+    <div class="commands__wrap-2">
+      <div class="commands__wrap-bar">
+        <div class="progress-bar">
+        </div>
+      </div>
+    </div>
+    <div class="commands__wrap-3">
+      <div class="commands__arrow-wrapper">
+        <div class="previous-wrapper commands__previous">
+          <img src="./svg/arrow.svg" alt="arrow-svg" class="com-pre-arrow">
+          <img src="./svg/circle-container.svg" alt="circle-svg" class="com-pre-circle">
+        </div>
+        <div class="next-wrapper commands__next">
+          <img src="./svg/arrow.svg" alt="arrow-svg" class="com-next-arrow">
+          <img src="./svg/circle-container.svg" alt="circle-svg" class="com-next-circle">
+        </div>
+      </div>
+    </div>
+  </div> 
+  
+
+  <!-- COLLECTIONS SECTION -->
+  <div class="collection">
+    <div class="frame">
+      <div class="frame__inner"></div>
+    </div>
+    <div class="collection__inner">
+      <div class="collection__slider" data-flickity='{ 
+        "prevNextButtons": true, 
+        "pageDots": false, 
+        "wrapAround": false, 
+        "contain": false,
+        "bgLazyLoad": 1,
+        "selectedAttraction": 0.01,
+        "friction": 0.15
+      }'>
+        <!-- <div class="carousel carousel-collection"> -->
+          <div class="carousel-cell cell1 collection-cell" data-slide="1">
+            <img src="./img/collection-01.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell2 collection-cell" data-slide="2">
+            <img src="./img/collection-02.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell3 collection-cell" data-slide="3">
+            <img src="./img/collection-03.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell4 collection-cell" data-slide="4">
+            <img src="./img/collection-04.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell5 collection-cell" data-slide="5">
+            <img src="./img/collection-05.jpg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell6 collection-cell" data-slide="6">
+            <img src="./img/collection-06.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell7 collection-cell" data-slide="7">
+            <img src="./img/collection-07.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell8 collection-cell" data-slide="8">
+            <img src="./img/collection-08.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+          <div class="carousel-cell cell9 collection-cell" data-slide="9">
+            <img src="./img/collection-09.jpeg" alt="collection-clothes" class="collection-image">
+          </div>
+      </div>
+    </div>
+  </div> <!-- collections -->
+
+</div>
+
+  <!-- CART -->
+  <div class="cart-wrapper">
+    <div class="cart">
+      <div class="cart__header">
+        <div class="cart__heading">
+          <h4 class="cart-h">YOUR</h4>
+          <h4 class="cart-h cart-h-down">CART</h4>
+        </div>
+        <a href="#" class="cart-close-icon">
+          <img src="./svg/close_icon.svg" alt="close icon">
+        </a>
+      </div>
+      <div class="cart__content">
+        <div class="cart__text-block">
+          Add to cart first, commit later!
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+  <script type="module" src="./js/dropdownMenuAnim.js"></script>
+  <script type="module" src="./js/inkHomeAnim.js"></script>
+  <script type="module" src="./js/logoAnim.js"></script>
+  <script type="module" src="./js/preloader.js"></script>
+  <script type="module" src="./js/sidebarAnim.js"></script>
+  <script type="module" src="./js/arrowLinkAnim.js"></script>
+  <script type="module" src="./js/cartLinkAnim.js"></script>
+  <script type="module" src="./js/cartAnim.js"></script>
+  <script type="module" src="../js/loaderJpn.js"></script>
+  <script type="module" src="../js/commands.js"></script>
+  <script type="module" src="./js/cursor.js"></script>
+  <script type="module" src="./js/viewportObserver.js"></script>
+</body>
+
+</html>

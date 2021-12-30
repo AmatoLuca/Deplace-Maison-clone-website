@@ -1,0 +1,70 @@
+@import "./fonts.scss";
+
+/* VARIABLES 
+============================== */
+$primary-black: #141414;
+$primary-white: #fcf9ee;
+$clr--copper: #e6d6c4;
+$clr--goldie: #ddc92a;
+
+$--cursor-size: 28px;
+$--cursor-bg: #FAF7EE;
+
+/* GLOBAL CSS
+============================== */
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  height: 100%;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  height: 100%;
+  font-family: Favorit, sans-serif;
+  color: $primary-black;
+  font-size: 0.85vw;
+  line-height: 0.85vw;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  background-color: $primary-black;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-black;
+}
+
+h1 {
+  font-family: "Favorit", sans-serif;
+  color: $primary-black;
+  font-weight: 400;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+}
+
+main {
+  background-color: $primary-white;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.page-sides-standard {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}

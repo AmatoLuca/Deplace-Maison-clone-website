@@ -1,0 +1,19 @@
+/* PRODUCT PAGE CAROUSEL
+=====================*/
+.product-carousel {
+  background-color: #f9f7ed;
+  margin: 0;
+}
+
+.product-carousel-item {
+  width: 50vw;
+  height: 78vw;
+  border-width: 0.5vw;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: 0 !important;
+}

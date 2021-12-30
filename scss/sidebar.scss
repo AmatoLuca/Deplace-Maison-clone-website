@@ -1,0 +1,47 @@
+/*  QUOTE SECTION
+============================== */
+.sidebar {
+  position: fixed;
+  left: 2vw;
+  bottom: 2vw;
+  padding-left: 0.2vw;
+  padding-right: 0.2vw;
+  z-index: 2;
+  display: none;
+}
+
+.sidebar__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__wrap a {
+  position: relative;
+  overflow: hidden;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+  height: 0.85vw;
+}
+
+.sidebar__drawer {
+  display: flex;
+  flex-direction: column;
+  height: 1.8vw;
+}
+
+.sidebar__link {
+  transform-origin: -15% 50%;
+}
+
+.sidebar__link-copy {
+  transform: rotate(5deg);
+}
+
+
+/* HERO-CONTENT MEDIA QUERIES
+===================================== */
+@media screen and (min-width: 991px) {
+  .sidebar {
+    display: block;
+  }
+}

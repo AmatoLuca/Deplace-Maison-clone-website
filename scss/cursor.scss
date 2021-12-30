@@ -1,0 +1,27 @@
+/* CURSOR 
+=====================*/
+
+.cursor-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $--cursor-size;
+  height: $--cursor-size;
+  border-radius: $--cursor-size;
+  background: $--cursor-bg;
+  transform-origin: center center;
+}
+
+#cursor {
+  position: fixed;
+  top: calc($--cursor-size * -0.5);
+  left:  calc($--cursor-size * -0.5);
+  pointer-events: none;
+  mix-blend-mode: difference;  
+  filter: url(#goo);
+  z-index: 1000000;
+}
+
+.goo {
+  display: none;
+}

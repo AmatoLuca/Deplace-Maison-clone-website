@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./svg/logomark.svg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Déplacé Maison – Returns</title>
+  </head>
+  <body>
+    <!-- CURSOR -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+      <defs>
+          <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo"></feColorMatrix>
+              <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+          </filter>
+      </defs>
+    </svg>
+    <div id="cursor"></div>
+    
+    <!-- LOADER JPAN -->
+    <div class="loader-jpn">
+      <div class="loader-jpn__inner">
+        <div class="loader-jpn__logo-wrap">
+          <img src="./svg/jap-text.svg" alt=".japan-text" class="jpn-logo" />
+          <div class="japan-logo-mask"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR LARGE DEVICES -->
+    <div class="sidebar">
+      <div class="sidebar__wrap">
+        <a href="./shop.html" class="sb-achr-1">
+          <div class="sidebar__drawer drwr-1">
+            <div class="sidebar__link">shop</div>
+            <div class="sidebar__link sidebar__link-copy">shop</div>
+          </div>
+        </a>
+        <a href="./collections.html" class="sb-achr-2">
+          <div class="sidebar__drawer drwr-2">
+            <div class="sidebar__link">collections</div>
+            <div class="sidebar__link sidebar__link-copy">collections</div>
+          </div>
+        </a>
+        <a href="./about.html" class="sb-achr-3">
+          <div class="sidebar__drawer drwr-3">
+            <div class="sidebar__link">about</div>
+            <div class="sidebar__link sidebar__link-copy">about</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- NAVIGATION MOBILE SCREEEN -->
+    <nav class="navbar-mobile">
+      <div class="navbar-frame">
+        <div class="navbar-frame-slot">
+          <a href="index.html" class="name-app-link">
+            <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+            <img
+              src="./svg/nameApp-trans.svg"
+              alt="name-app"
+              class="logo-name-app logo-trans"
+            />
+          </a>
+        </div>
+        <div class="navbar-frame-slot">
+          <a href="#" class="menu-trigger">
+            <div class="menu-line" id="toggle-line-1"></div>
+            <div class="menu-line" id="toggle-line-2"></div>
+            <div class="menu-line" id="toggle-line-3"></div>
+          </a>
+        </div>
+        <div class="navbar-frame-slot">
+          <a href="#" class="cart-link">
+            <div class="cart-item">cart</div>
+            <div class="cart-amount">0</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- DROPDOWN MENU SMALL DEVICES -->
+      <div class="nav-menu">
+        <div class="nav-menu__inner">
+          <div class="menu-slot-1">
+            <div class="menu-slot-1__text">
+              <span class="menu-slot-1__text__pop">TABS</span>
+            </div>
+            <div class="menu-slot-underline"></div>
+            <div class="menu-slot-1__links">
+              <a href="./shop.html">
+                <h2>
+                  <span class="link-pop">SHOP</span>
+                </h2>
+              </a>
+              <a href="./collections.html">
+                <h2>
+                  <span class="link-pop">COLLECTIONS</span>
+                </h2>
+              </a>
+              <a href="./about.html">
+                <h2>
+                  <span class="link-pop">ABOUT</span>
+                </h2>
+              </a>
+            </div>
+            <div class="nav-slot-1-footer">
+              <div class="nav-slot-1-footer__b1">
+                <div class="m-s-footer-link">
+                  <a href="./about">FAQ</a>
+                </div>
+                <div class="m-s-footer-link">
+                  <a href="./terms-conditions.html">TERMS</a>
+                </div>
+              </div>
+              <div class="nav-slot-1-footer__b2">
+                <div class="m-s-footer-link">
+                  <a href="./returns.html">RETURNS</a>
+                </div>
+                <div class="m-s-footer-link">
+                  <a href="./privacy-policy.html">PRIVACY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-slot-2">
+            <!-- MENU SOCIAL SECTION -->
+            <div class="menu-social">
+              <div class="social-inner">
+                <div class="social-inner__slot-1">
+                  <a href="#"><img src="./svg/facebook.svg" alt="" /></a>
+                </div>
+                <div class="social-inner__slot-2">
+                  <a href="#"><img src="./svg/instagram.svg" alt="" /></a>
+                </div>
+                <div class="social-inner__slot-3">
+                  <div class="arrow-box-wrp">
+                    <div class="arrow-box">
+                      <a href="#"><img src="./svg/arrow_nav.svg" alt="" /></a>
+                    </div>
+
+                    <div class="ink">ink mode</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- menu social -->
+
+            <div class="menu-slot-3">
+              <a href="#">
+                <div class="inq-link">
+                  Inquiries &nbsp; ⟶ &nbsp;
+                  <span class="ns-span">info@deplacemaison.com</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- dropdown menu small devices -->
+    </nav>
+    <!-- nav mobile menu -->
+
+    <!-- NAVIGATION LARGE SCREEEN -->
+    <nav class="navbar-xl">
+      <div class="navbar__wrapper">
+        <div class="navbar-frame-xl nav-fr-left">
+          <a href="index.html" class="name-app-link-xl">
+            <div class="logo-name-p1">
+              <div class="logo-name-p2">
+                <img
+                  src="./svg/nameApp.svg"
+                  alt="name-app"
+                  class="logo-name-app-xl"
+                />
+                <img
+                  src="./svg/nameApp.svg"
+                  alt="name-app"
+                  class="logo-name-app-xl"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="navbar-frame-xl nav-fr-center">
+          <div class="ink-go">
+            <div class="ink-go__inner">inkmode</div>
+          </div>
+        </div>
+        <div class="navbar-frame-xl nav-fr-right">
+          <a href="#" class="cart-link-xl">
+            <div class="cart-item-xl">
+              <span class="cart-item-xl__lift-1">cart</span>
+              <span class="cart-item-xl__lift-2">cart</span>
+            </div>
+            <div class="cart-amount-xl">0</div>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation large screen -->
+
+    <!-- SECTION MAIN -->
+    <div class="sec-container">
+      <div class="sec-wrapper">
+        <div class="sec-p-section">
+          <h1 class="sec-p-heading">RETURNS</h1>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">RETURNS</h2>
+          <div class="sec-p-text">
+            Our policy lasts 21 days. If 21 days have gone by since your
+            purchase, unfortunately we can’t offer you a refund or exchange.To
+            be eligible for a return, your item must be unused and in the same
+            condition that you received it. It must also be in the original
+            packaging.
+            <br />
+            &zwj;
+            <br />
+            Several types of goods are exempt from being returned. Perishable
+            goods such as food, flowers, newspapers or magazines cannot be
+            returned. We also do not accept products that are intimate or
+            sanitary goods, hazardous materials, or flammable liquids or gases.
+            <br />
+            &zwj;
+            <br />
+            To complete your return, we require a receipt or proof of purchase
+            and a valid RMA number. Email sales@deplacemaison.com to obtain an
+            RMA number. Please do not send your purchase back to the
+            manufacturer.
+            <br />
+            &zwj;
+            <br />
+            There are certain situations where only partial refunds are
+            <br />
+            <br />
+            – Any item not in its original condition, is damaged or missing
+            parts for reasons not due to our error.
+            <br />
+            – Any item that is returned more than 21 days after delivery
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">REFUNDS (IF APPLICABLE)</h2>
+          <div class="sec-p-text">
+            Once your return is received and inspected, we will send you an
+            email to notify you that we have received your returned item. We
+            will also notify you of the approval or rejection of your refund.If
+            you are approved, then your refund will be processed, and a credit
+            will automatically be applied to your credit card or original method
+            of payment, within a certain amount of days.
+            <br />
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">Late or missing refunds (if applicable)</h2>
+          <div class="sec-p-text">
+            If you haven’t received a refund yet, first check your bank account
+            again.
+            <br />
+            Then contact your credit card company, it may take some time before
+            your refund is officially posted. Next contact your bank.
+            <br />
+            <br />
+            There is often some processing time before a refund is posted.If
+            you’ve done all of this and you still have not received your refund
+            yet, please contact us at sales@deplacemaison.com
+          </div>
+        </div>
+        <div class="sec-p-section">
+          <h2 class="sec-p-title">SHIPPING</h2>
+          <div class="sec-p-text">
+            To return your product, you should mail your product, with RMA number and copy of receipt, to: 
+            <br />
+            <br />
+            Via Bramante, 14
+            <br />
+            62014, Corridonia (MC)
+            <br />
+            Italy
+            <br />
+            P.IVA 01994510434
+            <br />
+            <br />
+            You will be responsible for paying for your own shipping costs for returning your item. 
+            <br />
+            We don’t guarantee that we will receive your returned item.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CART -->
+    <div class="cart-wrapper">
+      <div class="cart">
+        <div class="cart__header">
+          <div class="cart__heading">
+            <h4 class="cart-h">YOUR</h4>
+            <h4 class="cart-h cart-h-down">CART</h4>
+          </div>
+          <a href="#" class="cart-close-icon">
+            <img src="./svg/close_icon.svg" alt="close icon">
+          </a>
+        </div>
+        <div class="cart__content">
+          <div class="cart__text-block">
+            Add to cart first, commit later!
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="f-col1">
+        <div class="f-col1__letter">
+          <h5>subscribe to newsletter</h5>
+          <div class="f-col1__wrp-icon">
+            <img src="./svg/newsletter-face.svg" alt="">
+          </div>
+        </div>
+        <div class="f-col1-down">
+          <div class="f-col1-down__inner">
+            <form id="email-form">
+              <div class="form-wrap">
+                <div class="form-content">
+                  <label for="newsletter">subscribe to our newsletter</label>
+                  <input type="email" name="newsletter" id="newsletter" placeholder="email address" required class="submit-footer">
+                </div>
+                <div class="form-button">
+                  <input type="submit" value="submit">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="f-col2">
+        <div class="f-wrp-up">
+          <h5>info</h5>
+          <a href="./faq.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">FAQ</div>
+              <div class="f-inner__link-down">FAQ</div>
+            </div>
+          </a>
+          <a href="./returns.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">returns</div>
+              <div class="f-inner__link-down">returns</div>
+            </div>
+          </a>
+          <a href="./contact.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">contact</div>
+              <div class="f-inner__link-down">contact</div>
+            </div>
+          </a>
+        </div>
+        <div class="f-wrp-down">
+          <a href="./credits.html" class="f-wrp-down__link">credits</a>
+        </div>
+      </div>
+      <div class="f-col3">
+        <div class="f-wrp-up">
+          <h5>policy</h5>
+          <a href="./terms-conditions.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">terms</div>
+              <div class="f-inner__link-down">terms</div>
+            </div>
+          </a>
+          <a href="./privacy-policy.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">privacy</div>
+              <div class="f-inner__link-down">privacy</div>
+            </div>
+          </a>
+          <a href="./cookie-policy.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">cookie</div>
+              <div class="f-inner__link-down">cookie</div>
+            </div>
+          </a>
+        </div>
+        <div class="f-wrp-down">
+          <h5>&copy; 2020 déplace maison.</h5>
+        </div>
+      </div>
+      <div class="f-col4">
+        <div class="f-col4__container">
+          <a href="#top" class="footer__arrow">
+            <img src="./svg/circle-container.svg" alt="circle-link">
+            <img src="./svg/arrow.svg" alt="arrow-link">
+          </a>
+        </div>
+        <div class="f-col4__down">
+          <div class="col-4-social-fb">
+            <a href="#">
+              <img src="./svg/facebook-black.svg" alt="facebook-link">
+            </a>
+          </div>
+          <div class="f-col4-social-inst">
+            <a href="#">
+              <img src="./svg/instagram-black.svg" alt="instagram-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script type="module" src="./js/dropdownMenuAnim.js"></script>
+    <script type="module" src="./js/inkHomeAnim.js"></script>
+    <script type="module" src="./js/logoAnim.js"></script>
+    <script type="module" src="./js/sidebarAnim.js"></script>
+    <script type="module" src="./js/footerArrowAnim.js"></script>
+    <script type="module" src="./js/footerListAnim.js"></script>
+    <script type="module" src="./js/cartLinkAnim.js"></script>
+    <script type="module" src="./js/cartAnim.js"></script>
+    <script type="module" src="./js/loaderJpn.js"></script>
+    <script type="module" src="./js/cursor.js"></script>
+    <script type="module" src="./js/viewportObserver.js"></script>
+  </body>
+</html>
+

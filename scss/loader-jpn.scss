@@ -1,0 +1,70 @@
+/* LOADER JAPAN
+============================== */
+
+.loader-jpn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $primary-black;
+  z-index: 1000000;
+}
+
+.loader-jpn__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-jpn__logo-wrap {
+  position: relative;
+  width: 12vw;
+  background-color: #e7d6c4;
+}
+
+.jpn-logo {
+  display: inline-block;
+  width: 12vw;
+  background-color: #e7d6c4;
+  padding: 0.5vw 0.3vw;
+}
+
+.japan-logo-mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $primary-black;
+}
+
+
+/* MEDIA QUERIES 
+============================== */
+@media screen and (min-width: 479px) {
+  .loader-jpn__logo-wrap {
+    width: 8vw;
+  }
+
+  .jpn-logo {
+    width: 8vw;
+  }  
+}
+
+@media screen and (min-width: 991px) {
+  .loader-jpn__logo-wrap {
+    width: 5.5vw;
+  }
+
+  .jpn-logo {
+    width: 5.5vw;
+  }  
+}

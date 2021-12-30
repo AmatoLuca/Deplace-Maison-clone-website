@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../svg/logomark.svg" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/product-carousel.css">
+  <title>Déplacé Maison – Duran</title>
+</head>
+
+<body>
+  <!-- CURSOR -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo">
+        </feColorMatrix>
+        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+      </filter>
+    </defs>
+  </svg>
+  <div id="cursor"></div>
+
+  <!-- LOADER JPAN -->
+  <div class="loader-jpn">
+    <div class="loader-jpn__inner">
+      <div class="loader-jpn__logo-wrap">
+        <img src="../svg/jap-text.svg" alt=".japan-text" class="jpn-logo">
+        <div class="japan-logo-mask"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR LARGE DEVICES -->
+  <div class="sidebar">
+    <div class="sidebar__wrap">
+      <a href="./shop.html" class="sb-achr-1">
+        <div class="sidebar__drawer drwr-1">
+          <div class="sidebar__link">shop</div>
+          <div class="sidebar__link sidebar__link-copy">shop</div>
+        </div>
+      </a>
+      <a href="./collections.html" class="sb-achr-2">
+        <div class="sidebar__drawer drwr-2">
+          <div class="sidebar__link">collections</div>
+          <div class="sidebar__link sidebar__link-copy">collections</div>
+        </div>
+      </a>
+      <a href="./about.html" class="sb-achr-3">
+        <div class="sidebar__drawer drwr-3">
+          <div class="sidebar__link">about</div>
+          <div class="sidebar__link sidebar__link-copy">about</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- NAVIGATION MOBILE SCREEEN -->
+  <nav class="navbar-mobile">
+    <div class="navbar-frame">
+      <div class="navbar-frame-slot">
+        <a href="../index.html" class="name-app-link">
+          <img src="../svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+          <img src="../svg/nameApp-trans.svg" alt="name-app" class="logo-name-app logo-trans" />
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="menu-trigger">
+          <div class="menu-line" id="toggle-line-1"></div>
+          <div class="menu-line" id="toggle-line-2"></div>
+          <div class="menu-line" id="toggle-line-3"></div>
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="cart-link">
+          <div class="cart-item">cart</div>
+          <div class="cart-amount">0</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- DROPDOWN MENU SMALL DEVICES -->
+    <div class="nav-menu">
+      <div class="nav-menu__inner">
+        <div class="menu-slot-1">
+          <div class="menu-slot-1__text">
+            <span class="menu-slot-1__text__pop">TABS</span>
+          </div>
+          <div class="menu-slot-underline"></div>
+          <div class="menu-slot-1__links">
+            <a href="../shop.html">
+              <h2>
+                <span class="link-pop">SHOP</span>
+              </h2>
+            </a>
+            <a href="../collections.html">
+              <h2>
+                <span class="link-pop">COLLECTIONS</span>
+              </h2>
+            </a>
+            <a href="../about.html">
+              <h2>
+                <span class="link-pop">ABOUT</span>
+              </h2>
+            </a>
+          </div>
+          <div class="nav-slot-1-footer">
+            <div class="nav-slot-1-footer__b1">
+              <div class="m-s-footer-link">
+                <a href="../faq.html">FAQ</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="../terms-conditions.html">TERMS</a>
+              </div>
+            </div>
+            <div class="nav-slot-1-footer__b2">
+              <div class="m-s-footer-link">
+                <a href="../returns.html">RETURNS</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="../privacy-policy.html">PRIVACY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-slot-2">
+          <!-- MENU SOCIAL SECTION -->
+          <div class="menu-social">
+            <div class="social-inner">
+              <div class="social-inner__slot-1">
+                <a href="#"><img src="../svg/facebook.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-2">
+                <a href="#"><img src="../svg/instagram.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-3">
+                <div class="arrow-box-wrp">
+                  <div class="arrow-box">
+                    <a href="#"><img src="../svg/arrow_nav.svg" alt="" /></a>
+                  </div>
+
+                  <div class="ink">ink mode</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- menu social -->
+
+          <div class="menu-slot-3">
+            <a href="#">
+              <div class="inq-link">
+                Inquiries &nbsp; ⟶ &nbsp;
+                <span class="ns-span">info@deplacemaison.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dropdown menu small devices -->
+  </nav>
+  <!-- nav mobile menu -->
+
+  <!-- NAVIGATION LARGE SCREEEN -->
+  <nav class="navbar-xl">
+    <div class="navbar__wrapper">
+      <div class="navbar-frame-xl nav-fr-left">
+        <a href="../index.html" class="name-app-link-xl">
+          <div class="logo-name-p1">
+            <div class="logo-name-p2">
+              <img src="../svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+              <img src="../svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-frame-xl nav-fr-center hide-ink-mode">
+        <div class="ink-go">
+          <div class="ink-go__inner">inkmode</div>
+        </div>
+      </div>
+      <div class="navbar-frame-xl nav-fr-right">
+        <a href="#" class="cart-link-xl">
+          <div class="cart-item-xl">
+            <span class="cart-item-xl__lift-1">cart</span>
+            <span class="cart-item-xl__lift-2">cart</span>
+          </div>
+          <div class="cart-amount-xl">0</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- navigation large screen -->
+
+  <!-- COORDINATES MAP SHOP -->
+  <a href="https://goo.gl/maps/bEr1aTTPRsp4XJJj8" class="coordinates">40.608° N, 27.924° E </a>
+
+
+  <!-- TEAM SECTION -->
+  <div class="team">
+    <div class="team__intro">
+      <h1 class="team-head team-head-mobile">
+        We're a story of an engagement, which looks at the 
+        <span class="team-head-span">urban </span>
+        and outdoor with a common vision.
+      </h1>
+      <div class="team__intro-wide-wrp ww-up">
+        <h2 class="team-intro-wide">
+          We’re a story of an engagement,
+        </h2>
+      </div>
+      <div class="team__intro-wide-wrp ww-up">
+        <h2 class="team-intro-wide">
+          which looks at the <span class="team-intro-span">urban</span> and outdoor
+        </h2>
+      </div>
+      <div class="team__intro-wide-wrp">
+        <h2 class="team-intro-wide">
+          world with a common vision.
+        </h2>
+      </div>
+    </div>
+
+
+    <div class="team__component first-character">
+      <div class="team__component__aside">
+        <div class="team__component__name">
+          <h2 class="component-name">marco</h2>
+        </div>
+
+        <div class="team-aside-slide-panel"></div>
+      </div>
+      <div class="team__component__character">
+        <div class="team__component__character-inner">
+          
+          <div class="marquee marquee-team">
+            <div class="marquee__inner marquee-inner-team">
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+            </div>
+          </div>
+
+          <div class="team__component__img-wrap">
+            <img class="char-first-pop" src="./img/5d1e07dbbb9c4f354ab2a00b_marco-p-800.png" alt="marco-team" >
+          </div>
+          <div class="team__component__title">
+            <div class="team-title-t1">thE</div>
+            <div class="team-title-t2">EvEnT</div>
+            <div class="team-title-t3">OrGANiZEr</div>
+          </div>
+        </div>
+
+        <!-- Box for slide effect suing gsap -->
+        <div class="component-character-slide-panel"></div>
+      </div>
+    </div>
+
+
+    <div class="team__component team__component-reverse">
+      <div class="team__component__aside team__component__aside-reverse">
+        <div class="team__component__name">
+          <h2 class="component-name">aldo</h2>
+        </div>
+      </div>
+      <div class="team__component__character team__component__character-reverse">
+        <div class="team__component__character-inner">
+          
+          <div class="marquee marquee-team">
+            <div class="marquee__inner marquee-inner-team">
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;MAKE SOME BUILDING&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;MAKE SOME BUILDING&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;MAKE SOME BUILDING&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;MAKE SOME BUILDING&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;MAKE SOME BUILDING&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;let's play good shit&nbsp;&nbsp;
+              </h1>
+            </div>
+          </div>
+  
+          <div class="team__component__img-wrap team__component__img-wrap-reverse">
+            <img src="./img/5d1e07dbbbf602e308594582_aldo-p-800.png" alt="marco-team">
+          </div>
+          <div class="team__component__title team__component__title-reverse">
+            <div class="team-title-t1 team-title-t1-reverse">thE</div>
+            <div class="team-title-t2 team-title-t2-reverse">ArCHiTect</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="team__component">
+      <div class="team__component__aside">
+        <div class="team__component__name">
+          <h2 class="component-name">leonardo</h2>
+        </div>
+      </div>
+      <div class="team__component__character">
+        <div class="team__component__character-inner">
+
+          <div class="marquee marquee-team">
+            <div class="marquee__inner marquee-inner-team">
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;naughty but ink&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;naughty but ink&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;naughty but ink&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;naughty but ink&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;naughty but ink&nbsp;&nbsp;
+              </h1>
+      
+              <h1 class="marquee-heading">
+                &nbsp;&nbsp;naughty but ink&nbsp;&nbsp;
+              </h1>
+            </div>
+          </div>
+
+          <div class="team__component__img-wrap c">
+            <img src="./img/5d1e07dbbbf6027a89594580_leonardo-p-800.png" alt="marco-team">
+          </div>
+          <div class="team__component__title">
+            <div class="team-title-t1">thE</div>
+            <div class="team-title-t2">TaTtoO</div>
+            <div class="team-title-t3">ArTiST</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- team -->
+
+
+  <!-- STOCKLIST SECTION -->
+  <div class="stockist">
+    <div class="stocklist__head">
+      <div class="stock-wrap">
+        <h1 class="stock-head">stock-</h1>
+      </div>
+      <div class="stock-wrap-2">
+        <div class="stock-head-p1">
+          <h1 class="stock-head">list</h1>
+        </div>
+        <div class="stock__head__slogan">
+          <div class="stock-h-1">thE</div>
+          <div class="stock-h-2">HiGh-</div>
+          <div class="stock-h-3">LiGhTs</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stocklist__contain">
+      <div class="stock-col-left">
+        <div class="stock-point pw-1">
+          <a href="#" class="stock-point-link">MYER STORE</a>
+        </div>
+        <div class="stock-point pw-2">
+          <a href="#" class="stock-point-link">BROWNS</a>
+        </div>
+        <div class="stock-point pw-22">
+          <a href="#" class="stock-point-link">closet case</a>
+        </div>
+        <div class="stock-point pw-3">
+          <a href="#" class="stock-point-link">NIKOLAOS MOURTZIS</a>
+        </div>
+        <div class="stock-point pw-9">
+          <a href="#" class="stock-point-link">ANTONIO CARUSO</a>
+        </div>
+        <div class="stock-point pw-11">
+          <a href="#" class="stock-point-link">dantone</a>
+        </div>
+        <div class="stock-point pw-17">
+          <a href="#" class="stock-point-link">pret a porter</a>
+        </div>
+        <div class="stock-point pw-119">
+          <a href="#" class="stock-point-link">dilasima group</a>
+        </div>
+        <div class="stock-point pw-21">
+          <a href="#" class="stock-point-link">alan bilzerian</a>
+        </div>
+      </div>
+      <div class="stock-col-right">
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">MELBOURNE, AU</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">ST. LAURENT, CA</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">LONDON, GB</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">ATHENS, GR</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">NAPOLI, IT</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">milano, it</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">VLADIVOSTOK, RU</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">ISTANBUL, TR</div>
+        </div>
+        <div class="stock-point .stock-right">
+          <div class="stock-point-country">BOSTON, US</div>
+        </div>
+      </div>
+      </div>
+
+      <div class="hero-content-cta about-cta">
+        <div class="cta-link-wrp">
+          <a href="#" class="h-cta-link">EXPLORE</a>
+          <a href="#" class="cta-arrow-link arr-1">
+            <div class="cta-arrow-wrp">
+              <img src="./svg/circle-container.svg" alt="circle" />
+              <img src="./svg/arrow.svg" alt="arrow" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CART -->
+  <div class="cart-wrapper">
+    <div class="cart">
+      <div class="cart__header">
+        <div class="cart__heading">
+          <h4 class="cart-h">YOUR</h4>
+          <h4 class="cart-h cart-h-down">CART</h4>
+        </div>
+        <a href="#" class="cart-close-icon">
+          <img src="../svg/close_icon.svg" alt="close icon">
+        </a>
+      </div>
+      <div class="cart__content">
+        <div class="cart__text-block">
+          Add to cart first, commit later!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="f-col1">
+      <div class="f-col1__letter">
+        <h5>subscribe to newsletter</h5>
+        <div class="f-col1__wrp-icon">
+          <img src="../svg/newsletter-face.svg" alt="">
+        </div>
+      </div>
+      <div class="f-col1-down">
+        <div class="f-col1-down__inner">
+          <form id="email-form">
+            <div class="form-wrap">
+              <div class="form-content">
+                <label for="newsletter">subscribe to our newsletter</label>
+                <input type="email" name="newsletter" id="newsletter" placeholder="email address" required
+                  class="submit-footer">
+              </div>
+              <div class="form-button">
+                <input type="submit" value="submit">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="f-col2">
+      <div class="f-wrp-up">
+        <h5>info</h5>
+        <a href="../faq.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">FAQ</div>
+            <div class="f-inner__link-down">FAQ</div>
+          </div>
+        </a>
+        <a href="../returns.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">returns</div>
+            <div class="f-inner__link-down">returns</div>
+          </div>
+        </a>
+        <a href="../contact.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">contact</div>
+            <div class="f-inner__link-down">contact</div>
+          </div>
+        </a>
+      </div>
+      <div class="f-wrp-down">
+        <a href="../credits.html" class="f-wrp-down__link">credits</a>
+      </div>
+    </div>
+    <div class="f-col3">
+      <div class="f-wrp-up">
+        <h5>policy</h5>
+        <a href="../terms-conditions.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">terms</div>
+            <div class="f-inner__link-down">terms</div>
+          </div>
+        </a>
+        <a href="../privacy-policy.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">privacy</div>
+            <div class="f-inner__link-down">privacy</div>
+          </div>
+        </a>
+        <a href="../cookie-policy.html" class="wrap-up-links">
+          <div class="f-inner">
+            <div class="f-inner__link-up">cookie</div>
+            <div class="f-inner__link-down">cookie</div>
+          </div>
+        </a>
+      </div>
+      <div class="f-wrp-down">
+        <h5>&copy; 2020 déplace maison.</h5>
+      </div>
+    </div>
+    <div class="f-col4">
+      <div class="f-col4__container">
+        <a href="#top" class="footer__arrow">
+          <img src="../svg/circle-container.svg" alt="circle-link">
+          <img src="../svg/arrow.svg" alt="arrow-link">
+        </a>
+      </div>
+      <div class="f-col4__down">
+        <div class="col-4-social-fb">
+          <a href="#">
+            <img src="../svg/facebook-black.svg" alt="facebook-link">
+          </a>
+        </div>
+        <div class="f-col4-social-inst">
+          <a href="#">
+            <img src="../svg/instagram-black.svg" alt="instagram-link">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script type="module" src="../js/dropdownMenuAnim.js"></script>
+  <script type="module" src="../js/inkHomeAnim.js"></script>
+  <script type="module" src="../js/logoAnim.js"></script>
+  <script type="module" src="../js/sidebarAnim.js"></script>
+  <script type="module" src="../js/cartLinkAnim.js"></script>
+  <script type="module" src="../js/cartAnim.js"></script>
+  <script type="module" src="../js/footerArrowAnim.js"></script>
+  <script type="module" src="../js/footerListAnim.js"></script>
+  <script type="module" src="../js/loaderJpn.js"></script>
+  <script type="module" src="../js/productAnim.js"></script>
+  <script type="module" src="./js/arrowLinkAnim.js"></script>
+  <script type="module" src="./js/aboutAnim.js"></script>
+  <script type="module" src="../js/cursor.js"></script>
+  <script type="module" src="./js/viewportObserver.js"></script>
+</body>
+
+</html>

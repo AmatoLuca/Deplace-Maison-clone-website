@@ -1,0 +1,179 @@
+/* BANNER
+============================== */
+
+.banner {
+  padding-top: 18vw;
+  padding-right: 8vw;
+  padding-bottom: 18vw;
+}
+
+.bannner__wrp {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 6.5vw;
+}
+
+.banner h3 {
+  font-family: "Cyberthrone", sans-serif;
+  font-size: 5vw;
+  line-height: 6vw;
+  padding-right: 2vw;
+  padding-left: 0.4vw;
+}
+
+.banner h4 {
+  font-size: 2.8vw;
+  line-height: 2.8vw;
+  text-transform: initial;
+  font-weight: lighter;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  text-transform: none;
+  letter-spacing: -0.03em !important;
+}
+
+.banner__content-1 {
+  width: 31vw;  
+  position: relative;
+}
+
+.banner__content-2 { 
+  height: 14.5vw;
+  position: relative;
+  overflow: hidden;
+  padding-right: 0.5vw;
+  padding-left: 0.5vw;
+}
+
+.banner__content-2-inner {
+  max-width: 52vw;
+  height: 29vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__virgolette {
+  width: 15vw;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.reviewer {
+  position: absolute;
+  top: 3.7vw;
+  left: 3.2vw;
+  overflow: hidden;
+}
+
+.reviewer-wrp {
+  overflow: hidden;
+  height: 7vw;
+}
+
+.reviewer-inner {
+  height: 13vw;
+}
+
+
+/* BANNER MEDIA QUERIES
+============================== */
+@media screen and (min-width: 479px) {
+  .banner {
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+    padding-right: 10vw;
+  }
+
+  .bannner__wrp {
+    justify-content: center;
+    padding-left: 3vw;
+  }
+
+  .banner__content-1 {
+    width: 33vw;  
+  }
+
+  .banner__virgolette {
+    width: 12vw;
+  }
+
+  .reviewer {
+    top: 2.4vw;
+  }
+
+  .banner h3 {
+    font-size: 5.4vw;
+    line-height: 5.4vw;
+  }
+
+  .reviewer-wrp {
+    height: 6vw;
+  }
+
+  .reviewer-inner {
+    height: 9vw;
+  }
+
+  .banner h4 {
+    font-size: 1.8vw;
+    line-height: 1.7vw;
+  }
+
+  .banner__content-2 { 
+    height: 7.5vw;
+  }
+
+  .banner__content-2-inner {
+    /* width: 36.5vw; */
+    width: 37vw;
+    height: 17vw;
+  }
+}
+
+
+@media screen and (min-width: 991px) {
+  .bannner__wrp {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+  }
+
+  .banner__content-1 {
+    width: 21vw;  
+  }
+
+  .banner__virgolette {
+    width: 7.5vw;
+  }
+
+  .reviewer {
+    position: absolute;
+    top: 1.2vw;
+    left: 3.2vw;
+    overflow: hidden;
+  }
+
+  .reviewer-wrp {
+    height: 5vw;
+  }
+
+  .banner h3 {
+    font-size: 3.5vw;
+    line-height: none;
+  }
+
+  .banner h4 {
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+  }
+
+  .banner__content-2 { 
+    height: 6.6vw;
+  }
+
+  .banner__content-2-inner {
+    width: 24.4vw;
+    height: 14.7vw;
+  }
+}
+

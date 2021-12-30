@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./svg/logomark.svg" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Déplacé Maison | Urban Trekking Evangelist</title>
+</head>
+
+<body>
+  <!-- CURSOR -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo">
+        </feColorMatrix>
+        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+      </filter>
+    </defs>
+  </svg>
+  <div id="cursor"></div>
+
+  <!-- PRELOADER INTRO -->
+  <div class="preloader">
+    <div class="load-inner">
+      <div class="load-wrap load-1">
+        <img src="./svg/logomark.svg" alt=".logomark" />
+      </div>
+      <div class="load-wrap load-2">
+        <div class="percentage-wrap">
+          <div class="percentage-inner">
+            <div class="percentage-text">30%</div>
+            <div class="percentage-text">68%</div>
+            <div class="percentage-text">87%</div>
+            <div class="percentage-text">100%</div>
+          </div>
+        </div>
+      </div>
+      <div class="load-wrap load-3">
+        <div class="load-over">
+          <div class="load-text">&copy; 2020 DéPlacé maison.</div>
+        </div>
+        <div class="load-over">
+          <div class="load-text">all rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- preloader intro -->
+
+  <!-- SIDEBAR LARGE DEVICES -->
+  <div class="sidebar">
+    <div class="sidebar__wrap">
+      <a href="./shop.html" class="sb-achr-1">
+        <div class="sidebar__drawer drwr-1">
+          <div class="sidebar__link">shop</div>
+          <div class="sidebar__link sidebar__link-copy">shop</div>
+        </div>
+      </a>
+      <a href="./collections.html" class="sb-achr-2">
+        <div class="sidebar__drawer drwr-2">
+          <div class="sidebar__link">collections</div>
+          <div class="sidebar__link sidebar__link-copy">collections</div>
+        </div>
+      </a>
+      <a href="./about.html" class="sb-achr-3">
+        <div class="sidebar__drawer drwr-3">
+          <div class="sidebar__link">about</div>
+          <div class="sidebar__link sidebar__link-copy">about</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- NAVIGATION MOBILE SCREEEN -->
+  <nav class="navbar-mobile">
+    <div class="navbar-frame">
+      <div class="navbar-frame-slot">
+        <a href="index.html" class="name-app-link">
+          <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app" />
+          <img src="./svg/nameApp-trans.svg" alt="name-app" class="logo-name-app logo-trans" />
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="menu-trigger">
+          <div class="menu-line" id="toggle-line-1"></div>
+          <div class="menu-line" id="toggle-line-2"></div>
+          <div class="menu-line" id="toggle-line-3"></div>
+        </a>
+      </div>
+      <div class="navbar-frame-slot">
+        <a href="#" class="cart-link">
+          <div class="cart-item">cart</div>
+          <div class="cart-amount">0</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- DROPDOWN MENU SMALL DEVICES -->
+    <div class="nav-menu">
+      <div class="nav-menu__inner">
+        <div class="menu-slot-1">
+          <div class="menu-slot-1__text">
+            <span class="menu-slot-1__text__pop">TABS</span>
+          </div>
+          <div class="menu-slot-underline"></div>
+          <div class="menu-slot-1__links">
+            <a href="./shop.html">
+              <h2>
+                <span class="link-pop">SHOP</span>
+              </h2>
+            </a>
+            <a href="./collections.html">
+              <h2>
+                <span class="link-pop">COLLECTIONS</span>
+              </h2>
+            </a>
+            <a href="./about.html">
+              <h2>
+                <span class="link-pop">ABOUT</span>
+              </h2>
+            </a>
+          </div>
+          <div class="nav-slot-1-footer">
+            <div class="nav-slot-1-footer__b1">
+              <div class="m-s-footer-link">
+                <a href="./faq.html">FAQ</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./terms-conditions.html">TERMS</a>
+              </div>
+            </div>
+            <div class="nav-slot-1-footer__b2">
+              <div class="m-s-footer-link">
+                <a href="./returns.html">RETURNS</a>
+              </div>
+              <div class="m-s-footer-link">
+                <a href="./privacy-policy.html">PRIVACY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-slot-2">
+
+          <!-- MENU SOCIAL SECTION -->
+          <div class="menu-social">
+            <div class="social-inner">
+              <div class="social-inner__slot-1">
+                <a href="#"><img src="./svg/facebook.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-2">
+                <a href="#"><img src="./svg/instagram.svg" alt="" /></a>
+              </div>
+              <div class="social-inner__slot-3">
+                <div class="arrow-box-wrp">
+                  <div class="arrow-box">
+                    <a href="#"><img src="./svg/arrow_nav.svg" alt="" /></a>
+                  </div>
+
+                  <div class="ink">ink mode</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- menu social -->
+
+          <div class="menu-slot-3">
+            <a href="#">
+              <div class="inq-link">
+                Inquiries &nbsp; ⟶ &nbsp;
+                <span class="ns-span">info@deplacemaison.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dropdown menu small devices -->
+  </nav>
+  <!-- nav mobile menu -->
+
+  <!-- NAVIGATION LARGE SCREEEN -->
+  <nav class="navbar-xl">
+    <div class="navbar__wrapper">
+      <div class="navbar-frame-xl nav-fr-left">
+        <a href="index.html" class="name-app-link-xl">
+          <div class="logo-name-p1">
+            <div class="logo-name-p2">
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+              <img src="./svg/nameApp.svg" alt="name-app" class="logo-name-app-xl" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-frame-xl nav-fr-center">
+        <div class="ink-go">
+          <div class="ink-go__inner">inkmode</div>
+        </div>
+      </div>
+      <div class="navbar-frame-xl nav-fr-right">
+        <a href="#" class="cart-link-xl">
+          <div class="cart-item-xl">
+            <span class="cart-item-xl__lift-1">cart</span>
+            <span class="cart-item-xl__lift-2">cart</span>
+          </div>
+          <div class="cart-amount-xl">0</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- navigation large screen -->
+
+  <!-- MAIN SECTION -->
+  <main class="app" id="top">
+    <div class="hero-heading">
+      <div class="hero-heading__sl-1">
+        <h1 class="hero__h-up">SPRING <span class="comma">,</span></h1>
+      </div>
+      <div class="hero__heading-sl-2">
+        <h1 class="hero__h-down">SUMMER</h1>
+        <div class="hero__spec">
+          <div class="hero__spec-up">COLL.</div>
+          <div class="hero__spec-down">2021</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-content__wrp">
+        <div class="hero-content__box">
+          <div class="hero-content__box__w1 ye-1-mov" style="overflow: hidden">
+            <img src="./img/yellow-800.jpeg" alt="yellow-pant-go" />
+          </div>
+          <div class="hero-content-caption">
+            <div class="hero-content-caption-wr-1">
+              <div class="caption-1">(01)</div>
+              <div class="caption-2">MAN</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content__box">
+          <div class="hero-content__box__w1 or-1-mov" style="overflow: hidden">
+            <img src="./img/orange-800.jpeg" alt="orange-pant-go" />
+          </div>
+          <div class="hero-content-caption">
+            <div class="hero-content-caption-wr-1">
+              <div class="caption-1">(02)</div>
+              <div class="caption-2">WMNS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scotch-tape">
+          <img src="./svg/scotch-tape.svg" alt="scotch-tape" />
+        </div>
+      </div>
+
+      <div class="hero-content-cta">
+        <div class="cta-link-wrp">
+          <a href="#" class="h-cta-link">EXPLORE</a>
+          <a href="#" class="cta-arrow-link arr-1">
+            <div class="cta-arrow-wrp">
+              <img src="./svg/circle-container.svg" alt="circle" />
+              <img src="./svg/arrow.svg" alt="arrow" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- hero content -->
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+      <div class="marquee__inner">
+        <h1 class="marquee-heading">
+          &nbsp;&nbsp;deplace shop&nbsp;&nbsp;·&nbsp;&nbsp;do not
+          scroll&nbsp;&nbsp;·
+        </h1>
+
+        <h1 class="marquee-heading">
+          &nbsp;deplace shop&nbsp;&nbsp;·&nbsp;&nbsp;do not
+          scroll&nbsp;&nbsp;·
+        </h1>
+
+        <h1 class="marquee-heading">
+          &nbsp;&nbsp;deplace shop&nbsp;&nbsp;·&nbsp;&nbsp;do not
+          scroll&nbsp;&nbsp;·
+        </h1>
+
+        <h1 class="marquee-heading">
+          &nbsp;&nbsp;deplace shop&nbsp;&nbsp;·&nbsp;&nbsp;do not
+          scroll&nbsp;&nbsp;·
+        </h1>
+
+        <h1 class="marquee-heading">
+          &nbsp;&nbsp;deplace shop&nbsp;&nbsp;·&nbsp;&nbsp;do not
+          scroll&nbsp;&nbsp;·
+        </h1>
+
+        <h1 class="marquee-heading">
+          &nbsp;&nbsp;deplace shop&nbsp;&nbsp;·&nbsp;&nbsp;do not
+          scroll&nbsp;&nbsp;·
+        </h1>
+      </div>
+    </div>
+
+    <!--  QUOTE SECTION -->
+    <div class="quote-sec">
+      <div class="quote-sec__track quote-sec__track-flex">
+        <div class="quote-sec__aside">Who we are</div>
+        <h2 class="quote-h">
+          <span class="quote-h__span" span>An</span>
+          independent
+          <a href="#" class="quote-sec__link">brand</a>
+          of
+        </h2>
+      </div>
+      <div class="quote-sec__track">
+        <h2 class="quote-h">urban trekking shoes and accessories</h2>
+      </div>
+      <div class="quote-sec__track">
+        <h2 class="quote-h">that comes from a convergence of</h2>
+      </div>
+      <div class="quote-sec__track">
+        <h2 class="quote-h">arts and personalities.</h2>
+      </div>
+    </div>
+
+    <!-- SLIDER HOME -->
+    <div class="slider-home">
+      <div class="carousel" data-flickity='{ 
+            "prevNextButtons": false, 
+            "pageDots": false, 
+            "wrapAround": false, 
+            "contain": true,
+            "bgLazyLoad": 1,
+            "selectedAttraction": 0.01,
+            "friction": 0.15
+          }'>
+
+        <a href="./product/duran.html">
+          <div class="carousel-cell">
+            <div class="carousel-cell__wrap-up">
+              <img src="./img/5ed0ce1058516c6883c51225_du-sand-side-p-800.jpeg" alt="shoes" />
+            </div>
+            <div class="wrap-down">
+              <div class="carousel__label">
+                <img src="./svg/unisex-label.svg" alt="" />
+              </div>
+              <div class="carousel__name-wrap">
+                <div class="carousel__season">SS/20</div>
+                <div class="carousel__item-name">Duran</div>
+              </div>
+              <div class="carousel__discount"><strike>€ 240 EUR</strike></div>
+              <div class="carousel__price">€ 144 EUR</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="./product/theEye.html">
+          <div class="carousel-cell">
+            <div class="carousel-cell__wrap-up">
+              <img src="./img/theEye-800.jpeg" alt="shoes" />
+            </div>
+            <div class="wrap-down">
+              <div class="carousel__label">
+                <img src="./svg/unisex-label.svg" alt="shoes-label" />
+              </div>
+              <div class="carousel__name-wrap">
+                <div class="carousel__season">SS/20</div>
+                <div class="carousel__item-name">The Eye</div>
+              </div>
+              <div class="carousel__discount"><strike>€ 240 EUR</strike></div>
+              <div class="carousel__price">€ 144 EUR</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="./product/cactus.html">
+          <div class="carousel-cell">
+            <div class="carousel-cell__wrap-up">
+              <img src="./img/5ecf8747b314ba36a789e3c4_ct-army-side-p-800.jpeg" alt="shoes" />
+            </div>
+            <div class="wrap-down">
+              <div class="carousel__label">
+                <img src="./svg/unisex-label.svg" alt="" />
+              </div>
+              <div class="carousel__name-wrap">
+                <div class="carousel__season">SS/20</div>
+                <div class="carousel__item-name">Cactus</div>
+              </div>
+              <div class="carousel__discount"><strike>€ 240 EUR</strike></div>
+              <div class="carousel__price">€ 144 EUR</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="./product/theCode.html">
+          <div class="carousel-cell">
+            <div class="carousel-cell__wrap-up">
+              <img src="./img/5ed0cf7411a8b0b111096fd5_tc-black-side-p-800.jpeg" alt="shoes" />
+            </div>
+            <div class="wrap-down">
+              <div class="carousel__label">
+                <img src="./svg/unisex-label.svg" alt="" />
+              </div>
+              <div class="carousel__name-wrap">
+                <div class="carousel__season">SS/20</div>
+                <div class="carousel__item-name">The Code</div>
+              </div>
+              <div class="carousel__discount"><strike>€ 240 EUR</strike></div>
+              <div class="carousel__price">€ 144 EUR</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="./product/carnera.html">
+          <div class="carousel-cell">
+            <div class="carousel-cell__wrap-up">
+              <img src="./img/5ed0ca93411f13ef43fe2ef2_ca-black-side-p-800.jpeg" alt="shoes" />
+            </div>
+            <div class="wrap-down">
+              <div class="carousel__label">
+                <img src="./svg/unisex-label.svg" alt="" />
+              </div>
+              <div class="carousel__name-wrap">
+                <div class="carousel__season">SS/20</div>
+                <div class="carousel__item-name">Carnera</div>
+              </div>
+              <div class="carousel__discount"><strike>€ 240 EUR</strike></div>
+              <div class="carousel__price">€ 144 EUR</div>
+            </div>
+          </div>
+        </div>
+        </a>
+
+      <div class="hero-content-cta page-sides-standard">
+        <div class="cta-link-wrp">
+          <a href="./shop.html" class="h-cta-link">SHOP ALL</a>
+          <a href="#" class="cta-arrow-link arr-2">
+            <div class="cta-arrow-wrp">
+              <img src="./svg/circle-container.svg" alt="circle" />
+              <img src="./svg/arrow.svg" alt="arrow" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="bannner__wrp">
+        <div class="banner__content-1">
+          <img src="./svg/virgolette.svg " alt="" class="banner__virgolette" />
+          <div class="reviewer">
+            <div class="reviewer-wrp">
+              <div class="reviewer-inner">
+                <h3 class="banner__title-top">William Gibson</h3>
+                <h3 class="banner__title-down">Jamie K. Cohen</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner__content-2">
+          <div class="banner__content-2-inner clear-fix">
+            <h4 class="banner__chunk-top">
+              Good things come to those who wait – Déplacé Maison is what has
+              been missing in the modern fashion industry for years. Buy a
+              shoe of high quality and design it finally happened. &nbsp;
+            </h4>
+            <h4 class="banner__chunk-down">
+              Déplacé Maison is a convincer for anticipation. The urban
+              trekking as nevers seen before. An exceptional product that has
+              no equal alongside a great team represent the brand
+              professionally. &nbsp;
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CART -->
+    <div class="cart-wrapper">
+      <div class="cart">
+        <div class="cart__header">
+          <div class="cart__heading">
+            <h4 class="cart-h">YOUR</h4>
+            <h4 class="cart-h cart-h-down">CART</h4>
+          </div>
+          <a href="#" class="cart-close-icon">
+            <img src="./svg/close_icon.svg" alt="close icon">
+          </a>
+        </div>
+        <div class="cart__content">
+          <div class="cart__text-block">
+            Add to cart first, commit later!
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="f-col1">
+        <div class="f-col1__letter">
+          <h5>subscribe to newsletter</h5>
+          <div class="f-col1__wrp-icon">
+            <img src="./svg/newsletter-face.svg" alt="">
+          </div>
+        </div>
+        <div class="f-col1-down">
+          <div class="f-col1-down__inner">
+            <form id="email-form">
+              <div class="form-wrap">
+                <div class="form-content">
+                  <label for="newsletter">subscribe to our newsletter</label>
+                  <input type="email" name="newsletter" id="newsletter" placeholder="email address" required
+                    class="submit-footer">
+                </div>
+                <div class="form-button">
+                  <input type="submit" value="submit">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="f-col2">
+        <div class="f-wrp-up">
+          <h5>info</h5>
+          <a href="./faq.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">FAQ</div>
+              <div class="f-inner__link-down">FAQ</div>
+            </div>
+          </a>
+          <a href="./returns.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">returns</div>
+              <div class="f-inner__link-down">returns</div>
+            </div>
+          </a>
+          <a href="./contact.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">contact</div>
+              <div class="f-inner__link-down">contact</div>
+            </div>
+          </a>
+        </div>
+        <div class="f-wrp-down">
+          <a href="./credits.html" class="f-wrp-down__link">credits</a>
+        </div>
+      </div>
+      <div class="f-col3">
+        <div class="f-wrp-up">
+          <h5>policy</h5>
+          <a href="./terms-conditions.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">terms</div>
+              <div class="f-inner__link-down">terms</div>
+            </div>
+          </a>
+          <a href="./privacy-policy.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">privacy</div>
+              <div class="f-inner__link-down">privacy</div>
+            </div>
+          </a>
+          <a href="./cookie-policy.html" class="wrap-up-links">
+            <div class="f-inner">
+              <div class="f-inner__link-up">cookie</div>
+              <div class="f-inner__link-down">cookie</div>
+            </div>
+          </a>
+        </div>
+        <div class="f-wrp-down">
+          <h5>&copy; 2020 déplace maison.</h5>
+        </div>
+      </div>
+      <div class="f-col4">
+        <div class="f-col4__container">
+          <a href="#top" class="footer__arrow">
+            <img src="./svg/circle-container.svg" alt="circle-link">
+            <img src="./svg/arrow.svg" alt="arrow-link">
+          </a>
+        </div>
+        <div class="f-col4__down">
+          <div class="col-4-social-fb">
+            <a href="#">
+              <img src="./svg/facebook-black.svg" alt="facebook-link">
+            </a>
+          </div>
+          <div class="f-col4-social-inst">
+            <a href="#">
+              <img src="./svg/instagram-black.svg" alt="instagram-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- main section -->
+
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+  <script type="module" src="./js/dropdownMenuAnim.js"></script>
+  <script type="module" src="./js/inkHomeAnim.js"></script>
+  <script type="module" src="./js/logoAnim.js"></script>
+  <script type="module" src="./js/preloader.js"></script>
+  <script type="module" src="./js/heroAnim.js"></script>
+  <script type="module" src="./js/sidebarAnim.js"></script>
+  <script type="module" src="./js/arrowLinkAnim.js"></script>
+  <script type="module" src="./js/quoteObserver.js"></script>
+  <script type="module" src="./js/sliderHomeObserver.js"></script>
+  <script type="module" src="./js/bannerAnim.js"></script>
+  <script type="module" src="./js/footerArrowAnim.js"></script>
+  <script type="module" src="./js/footerListAnim.js"></script>
+  <script type="module" src="./js/cartLinkAnim.js"></script>
+  <script type="module" src="./js/cartAnim.js"></script>
+  <script type="module" src="./js/cursor.js"></script>
+  <script type="module" src="./js/viewportObserver.js"></script>
+
+</body>
+
+</html>
