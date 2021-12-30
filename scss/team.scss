@@ -131,14 +131,15 @@
   overflow: visible;
 }
 
-.marquee__inner {
+/*.marquee__inner {
   transform: rotate(-4deg);
-}
+}*/
 
 .marquee-inner-team {
   height: 6vw;
   background-color: #ffc552;
   margin: 0 -2vw;
+  transform: rotate(-4deg);
 }
 
 .team__component__img-wrap {
