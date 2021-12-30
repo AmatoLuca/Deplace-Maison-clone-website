@@ -4,7 +4,7 @@ I challenged my front-end knowledge recreating a website. Take a look on: "https
 
 Technologies used in the project:
 
-
+<br />
 <ul>
   <li>HTML/CSS</li>
   <li>Javascript</li>
@@ -13,7 +13,7 @@ Technologies used in the project:
   <li>SASS</li>
   <li>Flickity (framework for carousel)</li>
 </ul>
-
+<br />
 
 I decided to recreate this website because is a good way to see how Designer accomplish the creation of an application, the tools they used
 and trying to replicate and to solve the problems you face doing this.
