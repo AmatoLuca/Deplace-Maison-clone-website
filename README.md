@@ -4,6 +4,14 @@ I challenged my front-end knowledge recreating a website. Take a look on: "https
 
 Technologies used in the project:
 
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ul>
+
 • HTML/CSS
 • Javascript
 • JQuery
