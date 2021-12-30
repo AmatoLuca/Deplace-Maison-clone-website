@@ -31,5 +31,5 @@ The Pro designer who made the original application is  Niccolò Miranda.
   <li>https://www.awwwards.com/niccolo.miranda/</li>
 </ul>
 
-You can also find the Niccolò Miranda project in GreenSock showcase: https://greensock.com/showcase.
+<br>You can also find the Niccolò Miranda project in GreenSock showcase: https://greensock.com/showcase.
 
