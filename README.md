@@ -1,7 +1,7 @@
 # Deplace-Maison-clone-website
 I challenged my front-end knowledge recreating a website. Take a look on: "https://www.deplacemaison.com" to test your skills.
 
-## My favorite search engine is [Duck Duck Go](frosty-kare-92a60d.netlify.app).
+## [To see my clone ](frosty-kare-92a60d.netlify.app).
 
 Technologies used in the project:
 
