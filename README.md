@@ -1,7 +1,7 @@
 # Deplace-Maison-clone-website
 I challenged my front-end knowledge recreating a website. Take a look on: "https://www.deplacemaison.com" to test your skills.
 
-## [Click here to see my clone](frosty-kare-92a60d.netlify.app)
+## [Click here to see my clone](https://frosty-kare-92a60d.netlify.app)
 
 Technologies used in the project:
 
