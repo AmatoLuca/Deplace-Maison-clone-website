@@ -6,18 +6,13 @@ Technologies used in the project:
 
 
 <ul>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
+  <li>HTML/CSS</li>
+  <li>Javascript</li>
+  <li>JQuery</li>
+  <li>GSAP (framework for animations)</li>
+  <li>SASS</li>
+  <li>Flickity (framework for carousel)</li>
 </ul>
-
-• HTML/CSS
-• Javascript
-• JQuery
-• GSAP (framework for animations)
-• SASS 
-• Flickity (framework for carousel)
 
 
 I decided to recreate this website because is a good way to see how Designer accomplish the creation of an application, the tools they used
