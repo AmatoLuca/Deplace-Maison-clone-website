@@ -20,7 +20,9 @@ and trying to replicate and to solve the problems you face doing this.
 
 I accepted the challenge through the website: https://www.frontendpractice.com.
 There i chose the application to replicate. 
-<br />
+
+
+<br/>
 The Pro designer who made the original application is  Niccolò Miranda.
 
 
