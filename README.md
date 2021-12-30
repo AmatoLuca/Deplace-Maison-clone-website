@@ -23,11 +23,13 @@ There i chose the application to replicate.
 
 The Pro designer who made the original application is  Niccolò Miranda.
 
-• https://www.niccolomiranda.com/ 
- <br>
-• https://www.linkedin.com/in/niccolomiranda/
-• https://www.awwwards.com/niccolo.miranda/
 
+<ul style="list-style-type:none;">
+  <li>https://www.niccolomiranda.com/ </li>
+  <li>https://www.linkedin.com/in/niccolomiranda/</li>
+  <li>https://www.awwwards.com/niccolo.miranda/</li>
+</ul>
+<br />
 
 You can also find the Niccolò Miranda project in GreenSock showcase: https://greensock.com/showcase.
 
