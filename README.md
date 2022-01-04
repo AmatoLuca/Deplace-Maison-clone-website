@@ -20,11 +20,11 @@ I decided to recreate this website because is a good way to see how Designer acc
 and trying to replicate and to solve the problems you face doing this.
 
 I accepted the challenge through the website: https://www.frontendpractice.com.
-There i chose the application to replicate. 
+There I chose the application to replicate. 
 
 
 <br>
-The Pro designer who made the original application is  Niccolò Miranda.
+The Pro designer who made the original application is Niccolò Miranda.
 
 <br><ul style="list-style-type:none;">
   <li>https://www.niccolomiranda.com/ </li>
