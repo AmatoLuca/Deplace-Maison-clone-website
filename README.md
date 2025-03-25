@@ -23,14 +23,3 @@ I accepted the challenge through the website: https://www.frontendpractice.com.
 There I chose the application to replicate. 
 
 
-<br>
-The Pro designer who made the original application is Niccolò Miranda.
-
-<br><ul style="list-style-type:none;">
-  <li>https://www.niccolomiranda.com/ </li>
-  <li>https://www.linkedin.com/in/niccolomiranda/</li>
-  <li>https://www.awwwards.com/niccolo.miranda/</li>
-</ul>
-
-<br>You can also find the Niccolò Miranda project in GreenSock showcase: https://greensock.com/showcase.
-
